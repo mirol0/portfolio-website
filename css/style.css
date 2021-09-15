@@ -31,7 +31,7 @@ h4 {
     font-weight: 400;
 }
 img {
-    width: 100%;
+    width: 50%;
 }
 a {
     color: #bd845d;
@@ -98,9 +98,7 @@ a:active {
 }
 #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;}
 
-.center {
-    text-align: center;
-  }
+
 /* Colors used:
 Primary Color (Green):#53624F;
 Secondary Color (Brown):#BD845D;
