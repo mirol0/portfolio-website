@@ -6,7 +6,6 @@ body {
     line-height: 1.6;
     color: #53624f;
 }
-
 h1,
 h2,
 h3,
@@ -90,6 +89,18 @@ a:active {
     opacity: 100%;
     text-decoration: underline;
 }
+/*layout styling*/
+.container {
+  padding: 0 15px;
+}
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a;}
+
+.center {
+    text-align: center;
+  }
 /* Colors used:
 Primary Color (Green):#53624F;
 Secondary Color (Brown):#BD845D;
