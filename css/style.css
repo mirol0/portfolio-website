@@ -15,6 +15,10 @@ header {
   padding: 10px 0;
   position:fixed;
   width: 100%;
+  box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+}
+main {
+  padding-top: 133px;
 }
 nav > ul {
   list-style-type: none;
@@ -46,9 +50,6 @@ nav > ul > li > a:hover {
   font-weight: 400;
   color: #BD845D;
 }
-}
-main {
-  padding-top: 133px;
 }
 h1,
 h2,
@@ -150,6 +151,7 @@ a:active {
   background-color: #e0e0de;
 }
 .logo {
+  padding: 50px;
   max-width: 250px;
 }
 
