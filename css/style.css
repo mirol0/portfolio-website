@@ -76,7 +76,7 @@ h4 {
     font-weight: 400;
 }
 img {
-    width: 50%;
+    max-width: 100%;
 }
 a {
     color: #bd845d;
