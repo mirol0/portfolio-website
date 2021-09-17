@@ -173,6 +173,9 @@ footer {
 #ultrant {
   padding: 0 15px;
 }
+#ultrant_img {
+  float: right;
+}
 
 /* Colors used:
 Primary Color (Green):#53624F;
