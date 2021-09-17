@@ -27,7 +27,6 @@ nav > ul {
 }
 nav > ul > li {
   display: inline-block;
-  width: 100%;
 }
 nav > ul > li > a {
   padding: 0 15px;
@@ -51,7 +50,6 @@ nav > ul > li > a:hover {
   text-transform: capitalize;
   font-weight: 400;
   color: #BD845D;
-}
 }
 h1,
 h2,
@@ -102,8 +100,8 @@ a:active {
 }
 
 .button.contact {
-    background-color: transparent;
-    color: #53624f;
+    background-color: #53624f;
+    color: #e0e0de;
     text-transform: uppercase;
     border: 2px solid #e0e0de;
 }
@@ -120,8 +118,8 @@ a:active {
 
 .button {
     display: inline-block; /* view proj since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: transparent;
-    color: #ffffff; /* needed to override the default link color */
+    background-color: #e0e0de;
+    color: #bd845d; /* needed to override the default link color */
     text-transform: capitalize;
     font-weight: 400;
     padding: 15px;
@@ -151,18 +149,18 @@ a:active {
   width: 100%;
 }
 .logo {
-  padding: 50px;
-  max-width: 250px;
+  max-width: 100px;
 }
 main{
-  padding-top: 333px;
+  padding-top: 173px;
 }
 footer {
   text-align: center;
-  padding: 10 px;
+  padding: 10px;
 }
 .social{
   text-align: center;
+  padding-top: 30px;
 }
 .social a {
   display: inline-block;
@@ -172,7 +170,9 @@ footer {
   max-width: 50px;
   height: auto;
 }
-
+#ultrant {
+  padding: 0 15px;
+}
 
 /* Colors used:
 Primary Color (Green):#53624F;
