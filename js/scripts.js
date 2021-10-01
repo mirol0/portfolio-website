@@ -1,12 +1,12 @@
 console.log("Oh Hey! Welcome to my porfolio. I'm thrilled you're here!");
-function menuToggle() {
+function menuToggle()
+{
   var x = document.getElementById('myNavtoggle');
     if (x.className === 'navtoggle') {
       x.className += ' responsive';
     } else {
       x.className = 'navtoggle';
     }
-}
 $(function(){
   $.scrollUp();
 });
