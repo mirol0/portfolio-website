@@ -11,22 +11,19 @@ body {
 }
 header {
     background-color: #e0e0de;
-    text-align: center;
-    padding: 10px 0;
+    padding: 10px 0 4px;
     position: fixed;
     display: inline-block;
     width: 100%;
     box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
 }
 main {
-    padding-top: 133px;
+    padding-top: 56px;
 }
 nav > ul {
     list-style-type: none;
     padding: 0;
-}
-nav > ul > li {
-    display: inline-block;
+    margin: 1em 0;
 }
 nav > ul > li > a {
     padding: 0 15px;
@@ -99,7 +96,35 @@ a:active {
     /* selected link */
     color: #bd845d;
 }
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+.navtoggle,
+.navtoggle.responsive {
+    position: relative;
+}
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
+}
+.navtoggle.responsive li {
+    display: block;
+}
+.navtoggle.responsive nav {
+    padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 127, 80, 0.5);
+}
 
+.navtoggle.responsive li:last-child {
+    padding: 0 0 10px;
+}
 .button.contact {
     background-color: #53624f;
     color: #e0e0de;
@@ -176,7 +201,7 @@ footer {
 }
 .social {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .social a {
     display: inline-block;
@@ -195,68 +220,12 @@ footer {
 [class*="col-"] {
     float: left;
 }
-.brandenburg {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-@keyframes color-change {
-    from {
-        fill: #edc655;
-    }
-    to {
-        fill: #f76414;
-    }
-}
-.sun {
-    animation-duration: 4s;
-    animation-name: color-change;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
-}
-@keyframes cloud-move {
-    from {
-        transform: translate(0, 50px);
-    }
-    to {
-        transform: translate(200px, 50px);
-    }
-}
-.cloud-front {
-    animation: 30s cloud-move infinite alternate linear;
-}
-@keyframes cloud-move-reverse {
-    from {
-        transform: translate(446px, 48px);
-    }
-    to {
-        transform: translate(100px, 48px);
-    }
-}
-.cloud-back {
-    animation: 34s cloud-move-reverse infinite alternate linear;
-}
-.mountains {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-}
-@keyframes first-attempt-cloud {
-    0% {
-        left: 0px;
-        top: 0px;
-    }
-    100% {
-        left: -200px;
-        top: 0px;
-    }
-}
-.cloud {
-    animation-name: first-attempt-cloud;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
 }
 
 /* ==============================
@@ -271,6 +240,15 @@ Medium devices (640px and larger)
         width: auto;
         float: right;
         margin-top: 4px;
+    }
+    nav > ul > li {
+        display: inline-block;
+    }
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+    .navtoggle li:last-child {
+        display: none;
     }
     .col-md-6 {
         width: 50%;
