@@ -21,22 +21,24 @@
             <div class="container">
                 <!-- yellow block-->
                 <div class="navtoggle" id="myNavtoggle">
-                <img class="logo" src="img/logo/logo.png" alt="logo" />
+                    <a href="index.html"> <img class="logo" src="img/logo/logo.png" alt="Morgan Madden UX/UI Designer logo" /></a>
 
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html#skills">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="javascript:void(0);" class="icon" onclick="navtoggle()"><i class="fas fa-bars"></i></a></li>
-                    </ul>
-                </nav>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Work</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li>
+                                <a href="javascript:void(0);" class="icon" onclick="navtoggle()"><i class="fas fa-bars"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-          </div>
         </header>
 
         <main>
-            <div id="hero">
+            <div id="hero" style="background-image: url('https://static.wixstatic.com/media/6f22ae_ca538925f40e413fabfc4d932701ae1a~mv2.png');">
                 <!--orange hero section block -->
                 <div class="container">
                     <!--container - yellow -->
@@ -47,193 +49,83 @@
                     <strong>I am a multi-skilled UX/UI designer with a Midwestern soul and a Boulder, CO address.</strong>
                     <p><a href="files/cv.pdf" class="button contact" download>Check out my resume</a></p>
                 </div>
-                <div id="work">
-                    <!--section block-->
-                    <div class="container">
-                        <!--container - yellow -->
-                        <h2>My Work</h2>
-                        <div class="row">
+            </div>
+            <div id="work">
+                <!--section block-->
+                <div class="container">
+                    <!--container - yellow -->
+                    <h2 class="center">- Work -</h2>
+                    <div class="row">
+                        <div class="workpic">
                             <div class="col-md-6 col-lg-7">
                                 <picture>
-                                    <source srcset="img/ultrant/title_mockup_@1x.png" media="(max-width:767px)" />
-                                    <img src="img/ultrant/title_mockup_@2x.png" alt="Ultrant Project" />
+                                    <source srcset="img/ultrant/title_mockup_@1x.png" media="(max-width:640px)" />
+                                    <img src="img/ultrant/title_mockup_@2x.png" alt="Ultrant Project" class="workimage" />
                                 </picture>
                             </div>
-                            <div class="col-md-6 col-lg-5">
-                                <h3>Ultrant</h3>
-                                <p>This fintech app has a unique motivational functionality that provides users with inspiration to reach personalized financial goals.</p>
-                                <a href="ultrant.html" class="button">View Project</a>
-                                <!--button or link label-->
-                            </div>
                         </div>
-
-                        <div class="row">
+                    <div class="workdescription">
+                        <div class="col-md-6 col-lg-5">
+                            <h3 class="center">Ultrant</h3>
+                            <p>This fintech app has a unique motivational functionality that provides users with inspiration to reach personalized financial goals.</p>
+                            <div class="center"><a href="ultrant.html" class="button">View Project</a></div>
+                            <!--button or link label-->
+                        </div>
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="workpic">
                             <div class="col-md-6 col-lg-7">
-                                <picture class="img">
-                                    <source srcset="img/souschef/single_phone_mockup_@1x.png" media="(max-width:767px)" />
-                                    <img src="img/souschef/single_phone_mockup_@2x.png" alt="Sous Chef Project" />
+                                <picture>
+                                    <source srcset="img/souschef/single_phone_mockup_@1x.png" media="(max-width:640px)" />
+                                    <img src="img/souschef/single_phone_mockup_@2x.png" alt="Sous Chef Project" class="workimage" />
                                 </picture>
                             </div>
-                            <div class="col-md-6 col-lg-5">
-                                <h3>Sous Chef</h3>
-                                <p>This web responsive app project collects and downloads recipes to provide easier viewing and following along.</p>
-                                <a href="souschef.html" class="button">View Project</a>
-                                <!--button or link label-->
-                            </div>
                         </div>
-
-                        <div class="row">
+                    <div class="workdescription">
+                        <div class="col-md-6 col-lg-5">
+                            <h3 class="center">Sous Chef</h3>
+                            <p>This web responsive app project collects and downloads recipes to provide easier viewing and following along.</p>
+                            <div class="center"><a href="souschef.html" class="button">View Project</a></div>
+                            <!--button or link label-->
+                        </div>
+                    </div>
+                  </div>
+                    <div class="lastrow">
+                        <div class="workpic">
                             <div class="col-md-6 col-lg-7">
-                                <picture class="img">
-                                    <source srcset="img/traverse/traverse_mockup@1x.png" media="(max-width:767px)" />
-                                    <img src="img/traverse/traverse_mockup@2x.png" alt="Traverse Project" />
+                                <picture>
+                                    <source srcset="img/traverse/traverse_mockup@1x.png" media="(max-width:640px)" />
+                                    <img src="img/traverse/traverse_mockup@2x.png" alt="Traverse Project" class="workimage" />
                                 </picture>
                             </div>
-                            <div class="col-md-6 col-lg-5">
-                                <h3>Traverse</h3>
-                                <p>
-                                    This native app project provides a personalized troubleshooting questionnaire to help the mountain bike community solve bike maintenance issues.
-                                </p>
-
-                                <p>
-                                    <a href="traverse.html" class="button">View Project</a>
-                                </p>
-                            </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-7">
-                                <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5000 4000">
-                                    <defs>
-                                        <style>
-                                            .cls-1 {
-                                                isolation: isolate;
-                                            }
-
-                                            .cls-2,
-                                            .cls-3 {
-                                                fill: #f5ece5; /*sky and ground */
-                                            }
-
-                                            .cls-3 {
-                                                /*path and moon*/
-                                                mix-blend-mode: multiply;
-                                            }
-
-                                            .cls-4 {
-                                                fill: #53624f; /*low hills*/
-                                            }
-
-                                            .cls-5 {
-                                                fill: #9ba699; /*right mtn*/
-                                            }
-
-                                            .cls-6 {
-                                                fill: #53624f; /*left shadow*/
-                                            }
-
-                                            .cls-7 {
-                                                fill: #9ba699; /*left mtn*/
-                                            }
-
-                                            .cls-8 {
-                                                fill: #fff; /*cloud and plants*/
-                                            }
-                                        </style>
-                                    </defs>
-                                    <g class="cls-1">
-                                        <g id="Objects">
-                                            <rect class="cls-2" width="5000" height="4000" />
-                                            <path
-                                                class="cls-3"
-                                                d="M265,2249.1s2406,316.51,2514.93,654.21c64.9,201.24-332.7,243.38-279.93,454.31s968.13,291.46,1195.24,332.62c447.62,81.13,561.2,173.32,626.1,309.76H2990.86s-1444.06-309.76-770.71-917.47c319.62-288.46-194.7-347.05-1955.15-745.33Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path
-                                                class="cls-4"
-                                                d="M4136.77,222.61s-189.12,32.93-626,594c-298.35,383.2-722.74,306.48-828.2,373.13s-868.06,828.76-868.06,828.76l730.14,146.52,718.17-413.75L3891.37,1001Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path
-                                                class="cls-5"
-                                                d="M5000,995.85s-118.93-48.68-216.28,0-131.79-250.51-186.59-267.72c-135.44-42.54-308.28-180.5-413.75-454.31s-300.17,632.79-454.31,778.81-482.64,213.87-567.89,213.87c-109.48,0-770.7,865.62-770.7,865.62L5000,2088Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path class="cls-6" d="M1530.58,1094.18s-414.23,51.9-733.42,271.36,100.63,231.63,100.63,231.63L1421.06,1512Z" transform="translate(0)" />
-                                            <path
-                                                class="cls-7"
-                                                d="M2098.46,1514.82c-162.25,58-446.19-420.64-567.88-420.64s-348.85,376.56-494.88,369.62-292.05-159.91-405.63-252.52C316.58,955.63,327.7,785.57,0,720.63V2000l2771.82,165.06S2260.72,1456.82,2098.46,1514.82Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path
-                                                class="cls-4"
-                                                d="M0,2253.15H5000V1562.36s-448.2,143.11-686.82,339.07C4086,2088,3826.42,1757.19,3428.9,2000c-289.77,177-1573.91,6.93-1728-53.93-357-141-462.42-357.52-843.72-44.64C679,2047.61,257.05,1539.13,0,1562.36Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path
-                                                class="cls-3"
-                                                d="M2035.51,957.57a400.74,400.74,0,0,1-79.63-58.44c172.64,46.49,361.26-27.83,452.53-191s55.89-362.76-74.06-485.55a400.25,400.25,0,0,1,91.47,37.28c192.66,107.78,261.47,351.33,153.69,544S2228.17,1065.35,2035.51,957.57Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path class="cls-4" d="M0,2047.91s662.52,384.86,759.87,798.61,473.26,300.17,646.32,503,700.39,424.81,724.73,650.49H0Z" transform="translate(0)" />
-                                            <path
-                                                class="cls-8"
-                                                d="M1948.75,824.46q-10.77,0-21.58-.61c-52.85-3.08-104.42-18.15-154.3-32.72-57.29-16.73-116.52-34-176-32.1-20.16.66-41,3.56-61.11,6.36-38.49,5.35-78.29,10.88-117.38,1.72-37.69-8.84-72.82-40.45-85.42-76.86-8.92-25.76-5.32-50.59,10.12-69.91,28.23-35.33,73.22-32.11,116.74-29,26.82,1.92,54.56,3.9,78-3.13,28.33-8.52,50.49-30.18,74-53.12,26.77-26.17,54.46-53.24,92.63-59.65,40.75-6.84,78,12.36,114,30.92,34.78,17.92,67.62,34.84,101.9,28.85,31-5.41,54.65-28.09,79.73-52.09,10.62-10.16,21.6-20.66,33.24-29.83a212.15,212.15,0,0,1,93-41.63c34.78-6.32,69.86-3.79,101.45,7.33,43.82,15.41,69.54,62.6,90.21,100.52,10.34,19,20.11,36.89,29.83,46.55,15.36,15.26,61.72,5.19,102.62-3.71,22.92-5,46.63-10.13,67-11.6,30.8-2.23,67.55,4.27,100.81,17.81,35.82,14.58,64.82,36.07,81.66,60.52h0c25.71,37.33,30.08,71.22,13,100.72-35.55,61.35-155.83,83-227.66,83.05-8.46,0-16.24-.3-23.13-.88-30.28-2.5-60.49-8-89.71-13.3-36.1-6.56-73.43-13.34-110.29-14.28-53.28-1.35-107.25,9.41-159.47,19.82C2052.42,814.18,2000.81,824.46,1948.75,824.46Zm-342.57-85.58c59.15,0,116.62,16.79,172.3,33.06,48.8,14.25,99.27,29,149.86,31.94,56.8,3.31,114.49-8.18,170.27-19.3C2151.91,774,2207,763,2262.5,764.39c38.41,1,76.51,7.9,113.36,14.59,28.75,5.22,58.47,10.62,87.78,13,27.37,2.27,77.47.27,128.61-12.84,52.1-13.35,88.76-34.46,103.22-59.42,12.89-22.24,8.8-48.94-12.14-79.36-32-46.5-110.95-73.59-164.56-69.72-18.91,1.36-41.91,6.36-64.15,11.2-50.34,10.94-97.89,21.28-121-1.66-11.79-11.71-21.75-30-33.29-51.15-20-36.74-42.72-78.37-79.29-91.24C2164,417.77,2095.15,430,2045.62,469c-10.88,8.56-21.5,18.73-31.78,28.56-26.14,25-53.17,50.88-90.11,57.34-40.91,7.15-78.33-12.13-114.51-30.77-34.65-17.85-67.37-34.72-101.56-29-32,5.36-56.26,29.1-82,54.22-24.15,23.62-49.13,48-82.17,58-26.9,8.09-56.51,6-85.14,3.93-41.86-3-78-5.57-99.69,21.54-14.1,17.65-11.5,37.42-6.84,50.89,10.31,29.8,40.21,56.69,71.09,63.93,35.46,8.31,71.69,3.27,110-2.06,20.65-2.87,42-5.84,63.22-6.54C1599.54,738.94,1602.87,738.88,1606.18,738.88Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path
-                                                class="cls-8"
-                                                d="M3674.74,3561c-.29,0-.59,0-.89,0a10,10,0,0,1-7.88-5.16c-30.76-56.21-46-132.61-44-220.94,1.86-82.9,19.09-168.78,48.53-241.81,39.23-97.34,96-162,159.79-182h0c40.52-12.79,82.21-9.4,122.52-6.12,21,1.71,42.8,3.47,63.8,2.83,74.47-2.29,148.7-36.2,203.63-93a10,10,0,0,1,17,9.05,444.74,444.74,0,0,1-78.32,171.55c-38.12,51-86.17,92.12-139,118.93-16.84,8.54-34.5,15.94-51.58,23.1-41.86,17.53-81.4,34.09-111.35,66.6-45.17,49-69.51,117.56-93.06,183.84-21.41,60.29-43.56,122.64-81.43,169.5A10,10,0,0,1,3674.74,3561Zm222.13-639.13c-20.63,0-40.75,2-60.55,8.25h0c-58,18.19-110.29,78.71-147.24,170.4-57.7,143.17-62.37,324.76-12.62,431.67,30-42.37,48.86-95.32,68.67-151.1,24.21-68.16,49.25-138.65,97.19-190.69,32.9-35.72,76.33-53.91,118.33-71.5,16.75-7,34.07-14.27,50.25-22.49,92.52-47,166.31-138.62,198.3-244.07-55,46.18-123.34,73.29-192,75.4-22.13.68-44.44-1.14-66-2.89C3932.65,2923.37,3914.57,2921.9,3896.87,2921.9Zm-63.56-1.29h0Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path
-                                                class="cls-8"
-                                                d="M3670,3560.22a10,10,0,0,1-8.13-4.19c-52.84-74-92.61-177.23-109.11-283.26-9.39-60.29-13.73-115.34-17.93-168.57-5.68-72.1-11.05-140.19-28.34-211.35-8.48-34.85-21.07-69.47-33.24-102.94-14.84-40.8-30.18-83-38.56-126.66-11.41-59.41-4.41-116.84,21.38-175.58,21.31-48.53,54.73-97.73,108.35-159.5a10,10,0,0,1,17.28,8.88c-19.92,83.5,5.63,204,58.17,274.39,13.94,18.67,28.17,35.7,41.94,52.17,38.6,46.2,75.06,89.83,92.28,155.56,31,118.19,9.5,198.51-26.07,331.57-21.06,78.77-33.49,166.33-46.65,259-6.6,46.53-13.43,94.64-21.51,142.12a10,10,0,0,1-9.86,8.33ZM3556.31,2368.71c-69,84.21-123.68,178-102,290.77,8.08,42.11,23.15,83.53,37.72,123.59,12.36,34,25.14,69.13,33.87,105,17.67,72.72,23.1,141.59,28.85,214.5,4.17,52.87,8.48,107.53,17.75,167.08,14.55,93.47,47.58,184.55,91.72,254.06,6.3-39.14,11.89-78.51,17.33-116.8,13.25-93.31,25.76-181.45,47.13-261.38l9.66,2.58-9.66-2.58c35.9-134.29,55.67-208.27,26.05-321.35-16.09-61.4-49.55-101.43-88.29-147.79-13.94-16.68-28.35-33.92-42.62-53-26.55-35.57-47.61-84.57-59.29-138C3555.66,2445,3552.91,2404.7,3556.31,2368.71Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path
-                                                class="cls-8"
-                                                d="M3670,3560.22a10,10,0,0,1-4.62-1.14c-73.9-38.52-132.87-81.55-180.28-131.54-40.2-42.38-63.65-80.85-82.5-111.76-19.85-32.54-33-54-52.79-58.67-18.54-4.34-39.4,3.76-53.14,20.64-8.6,10.56-14.92,22.79-21.61,35.74-4.35,8.43-8.86,17.15-14.09,25.47-13.41,21.32-31.85,39-54.81,52.48a193.27,193.27,0,0,1-147.34,19.19c-25.65-7.17-48-19.52-66.42-36.7a10,10,0,0,1,1.56-15.82c8.31-5.13,17.08-10,25.56-14.64,50.13-27.65,102-56.23,127.73-172.88,11.92-54,46.68-105.22,95.37-140.63a239.64,239.64,0,0,1,77.28-37.69c28.78-7.93,57.38-9.57,85-4.89,136,23,204.19,154,237.5,259.89,39.2,124.58,43.82,252.68,37.53,304.16a10,10,0,0,1-9.93,8.79ZM3339.74,3236a64.15,64.15,0,0,1,14.59,1.66c28,6.55,43.64,32.22,65.3,67.74,35.68,58.51,89.11,146.11,241.74,229,3.84-59.7-4.86-175.44-38.09-281.05-31.63-100.51-95.78-224.82-221.76-246.17-99.74-16.91-211.65,63.07-234.78,167.8-12.33,55.8-31.91,98.09-59.87,129.29-24.69,27.54-52.87,43.08-77.73,56.79-4.35,2.4-8.59,4.73-12.72,7.08,30.92,23.38,72.18,33.48,115.36,27.86,48.24-6.28,89.14-30.92,112.22-67.61,4.78-7.6,8.9-15.57,13.25-24,6.86-13.29,14-27,23.87-39.19C3296.23,3246.57,3318.12,3236,3339.74,3236Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path
-                                                class="cls-8"
-                                                d="M3528.54,2961.93a10,10,0,0,1-10-9.4c-3.92-65.64-48.1-140.75-102.78-174.72-53.51-33.24-124.1-35.72-179.81-6.31-20.08,10.61-37.75,24.65-56.45,39.51-11.29,9-23,18.25-35.15,26.64-23.21,16-56,32.9-90.79,32.9a100.61,100.61,0,0,1-23.82-2.81c-36.53-4.74-66.81-32.84-85.81-55.65a10,10,0,0,1,10.9-15.87c35.51,12.08,73-15.13,92.21-32.42,6.37-5.74,12.77-12,18.95-18,21.48-20.85,43.68-42.41,72.9-53.06,44.4-16.19,91.63-3.11,140.17,12.95l116.18,38.44a10,10,0,0,1,4.29,2.81,192.16,192.16,0,0,1,26.78,13.83c28.85,17.92,56,46.81,76.59,81.33,20.85,35,33.49,73.83,35.6,109.19a10,10,0,0,1-9.39,10.57C3528.94,2961.93,3528.74,2961.93,3528.54,2961.93Zm-550.38-142.85c14.59,13.31,33.75,26.33,54.66,28.88a9.93,9.93,0,0,1,1.21.23c36.19,9.06,73.82-9.69,99-27,11.62-8,23-17.05,34.05-25.82,18.59-14.77,37.82-30.06,59.55-41.53a198.05,198.05,0,0,1,69.57-21.35l-23.41-7.74c-45.05-14.91-88.67-27.14-127-13.15-25.2,9.19-44.93,28.34-65.82,48.62-6.31,6.13-12.84,12.47-19.49,18.46C3043,2794.39,3012.23,2817,2978.16,2819.08Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path
-                                                class="cls-8"
-                                                d="M3417,3006.92a10,10,0,0,1-6.94-2.8c-30.59-29.48-57.29-57.83-80.85-82.85-49.75-52.83-89-94.56-141.08-125a10,10,0,0,1,10.1-17.26c54.52,31.88,96.7,76.67,145.54,128.54,24.54,26.06,49.93,53,80.16,82.15a10,10,0,0,1-6.93,17.21Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path
-                                                class="cls-8"
-                                                d="M5000,3939.86c-30.41-30.07-57.4-63-83.55-95-59.12-72.24-120.18-146.85-225.19-195.59a406.23,406.23,0,0,1,34.12-34.28c54.85-47.93,117.16-60.09,165-34q.24.15.48.27a113.61,113.61,0,0,1,19,13.24c41.38,35.44,79.67,113.72,90.1,196.65V3681c-23.73-66.77-48.71-135.32-95.6-186.21-32.9-35.72-76.33-53.91-118.33-71.5-16.75-7-34.07-14.28-50.25-22.49-92.51-47-166.31-138.63-198.3-244.07,55,46.18,123.34,73.29,191.95,75.39,22.12.69,44.45-1.13,66-2.88,40.16-3.27,78.09-6.35,114.88,5.26h0c32.17,10.09,62.59,33.21,89.6,67.44v-30.61c-25.62-27.53-53.84-46.57-83.59-55.91-40.53-12.79-82.21-9.41-122.53-6.13-21,1.71-42.79,3.48-63.8,2.83-74.47-2.28-148.7-36.19-203.63-93a10,10,0,0,0-17,9,445,445,0,0,0,78.32,171.55c38.12,51,86.17,92.12,139,118.92,16.83,8.55,34.49,15.95,51.57,23.1,41.87,17.54,81.4,34.1,111.35,66.61,27.64,30,47.48,67.31,64.11,106.93-9.53-14.44-19.92-26.6-30.89-36a133.6,133.6,0,0,0-21.55-15.11c-33-31.9-68.22-54.68-104.71-67.72-42.89-15.33-113.91-12.53-166.66,22.47-31.64,21-58,57.86-83.54,93.49-7.49,10.48-15.25,21.3-22.94,31.44-30.73,40.52-65.3,62.36-105.68,66.78a10,10,0,0,0-4.66,18.13c34,23.8,74.36,37.21,113.73,37.77,38.2.54,71.49-11.31,91.33-32.54,14-15,27.66-31.34,40.88-47.16,6.08-7.27,12.21-14.6,18.41-21.85,104.16,46.78,164.79,120.86,223.45,192.54,28.5,34.83,58,70.84,92.12,103.51a9.92,9.92,0,0,0,6.91,2.78h0Zm-332.68-293.67-.25.29c-7.89,9.1-15.64,18.37-23.3,27.54-13.05,15.61-26.54,31.75-40.16,46.32-16,17.12-43.82,26.68-76.42,26.21-27.49-.4-55.59-7.79-81.15-21.15,35.06-10.16,65.81-33.07,93.41-69.45,7.86-10.36,15.69-21.3,23.26-31.88,24.47-34.17,49.76-69.5,78.34-88.47,46.76-31,111.6-33.63,148.87-20.31,21,7.51,41.64,18.58,61.67,33.06a144,144,0,0,0-30.08,0c-37.36,3.9-75.15,21.72-109.29,51.56C4696.59,3613.6,4681.72,3629.6,4667.32,3646.19Z"
-                                                transform="translate(0)"
-                                            />
-                                            <path class="cl-8" d="M5000,3865.41v0c-.32,0-.62,0-.88,0Z" transform="translate(0)" />
-                                        </g>
-                                    </g>
-                                </svg>
-                            </div>
-                            <div class="col-md-6 col-lg-5">
-                                <h3>CSS Animation</h3>
-                                <p>This is an example of a SVG image that is animated using keyframes.</p>
-                            </div>
+                    <div class="workdescription">
+                        <div class="col-md-6 col-lg-5">
+                            <h3 class="center">Traverse</h3>
+                            <p>
+                                This native app project provides a personalized troubleshooting questionnaire to help the mountain bike community solve bike maintenance issues.
+                            </p>
+                            <div class="center"><a href="traverse.html" class="button">View Project</a></div>
                         </div>
                     </div>
                 </div>
             </div>
+          </div>
         </main>
-
-        <footer id="contact">
+        <footer id="contact" style="background-image: url('https://static.wixstatic.com/media/6f22ae_ca538925f40e413fabfc4d932701ae1a~mv2.png');">
             <div class="container">
-                <h2>Wanna drop a line?</h2>
-                <p>Please get in touch at:</p>
-                <p>I look forward to hearing from you.</p>
-                <p>Currently splitting time between Boulder, CO and Duluth, MN.</p>
-                <div>
-                    <a href="mailto:morganimadden@gmail.com" class="button contact">Email me </a>
+                <h2>- Contact -</h2>
+                <p>I'd love to connect! Drop me a line at: </p>
+                <div class="social">
+                    <a href="mailto:morganimadden@gmail.com" target="_blank">
+                        <span>
+                            <strong class="bold-text">morganimadden@gmail.com</strong>
+                        </span>
+                    </a>
                 </div>
+                <p>Thanks for coming by. I look forward to hearing from you!</p>
+                <p>Currently splitting time between Boulder, CO and Duluth, MN.</p>
                 <div class="social">
                     <a href="https://www.linkedin.com/in/morganimadden/" target="_blank">
                         <i class="fab fa-linkedin"></i>
@@ -242,11 +134,11 @@
                         <i class="fab fa-behance-square"></i>
                     </a>
                 </div>
-                <p>Copyright MORGAN-MADDEN 2021</p>
+                <p class="c">Copyright 2021 Morgan Rolon Madden</p>
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src= "js/jquery.scrollUp.js"></script>
+        <script src="js/jquery.scrollUp.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
