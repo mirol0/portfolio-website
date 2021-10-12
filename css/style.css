@@ -13,42 +13,44 @@ header {
 .navtoggle li:not(:last-child) {
     display: none;
 }
-.navtoggle, .navtoggle.responsive {
+.navtoggle,.navtoggle.responsive {
     position: relative;
 }
 .navtoggle.responsive nav {
-    padding: 12px;
+    padding: 24px 0 0;
     background-color: #e0e0de;
     width: 100%;
-  }
+}
 .navtoggle.responsive li {
     display: block;
     padding: 10px 0;
+    border-top: 1px solid #bd845d;
 }
 .navtoggle li .icon {
     position: absolute;
     right: 0;
+    padding-right: 0;
     top: 2px;
     font-size: 28px;
+    padding-top: 4px;
 }
 nav > ul {
     list-style-type: none;
     padding: 0;
-    margin:  1em 0;
+    margin: 0;
 }
 nav > ul > li > a {
     padding: 0 12px;
     text-transform: uppercase;
     font-weight: 400;
     color: #53624f;
-    font-family: 'Poiret One', cursive;
+    font-family: "Poiret One", cursive;
 }
 nav > ul > li > a:hover {
     font-weight: 400;
     color: #f6ebe5;
     text-decoration: overline;
-    padding: 0 15px;
-  }
+}
 #hero {
     text-align: center;
     padding: 20px 0;
@@ -56,7 +58,7 @@ nav > ul > li > a:hover {
     width: 100%;
 }
 main {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 body {
     background-color: #ffffff;
@@ -70,8 +72,11 @@ footer {
     text-align: center;
     padding: 15px;
 }
-h1,h2,h3,h4 {
-    font-family: 'Poiret One', cursive;
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Poiret One", cursive;
 }
 h1 {
     font-size: 2.75em;
@@ -119,12 +124,12 @@ a:active {
     color: #bd845d;
 }
 .workimage:hover {
-  transform: scale(1.0125);
+    transform: scale(1.0125);
 }
 .button.contact {
     background-color: transparent;
     color: #53624f;
-    text-transform:  full-width;
+    text-transform: full-width;
     border: 2px solid #f6ebe5;
     padding: 12px 60px;
     margin: 15px;
@@ -141,7 +146,7 @@ a:active {
 }
 .button {
     display: inline-block; /* view proj since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color:  #e0e0de;
+    background-color: #e0e0de;
     color: #53624f; /* needed to override the default link color */
     text-transform: capitalize;
     font-weight: 400;
@@ -169,8 +174,8 @@ a:active {
     padding-bottom: 50px;
     border-bottom: 1px solid #53624f;
 }
-#workdescription{
-  padding-right: 15px;
+#workdescription {
+    padding-right: 15px;
 }
 .row::after {
     content: "";
@@ -183,53 +188,53 @@ a:active {
     border-radius: 8px;
 }
 .workpic {
-  text-align: center;
-  padding-top: 30px;
-  position: inherit;
+    text-align: center;
+    padding-top: 30px;
+    position: inherit;
 }
 .workimage:hover {
-  transform: scale(1.0125);
+    transform: scale(1.0125);
 }
 #about h2 {
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
 #about h3 {
-  padding-top: 10px;
+    padding-top: 10px;
     margin-top: 0;
 }
 #about h4 {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  text-decoration: underline;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: underline;
 }
 #about .profilepic {
-  border-radius: 50%;
-  max-width: 200px;
-  text-align: center;
+    border-radius: 50%;
+    max-width: 200px;
+    text-align: center;
 }
 #about .row {
-        padding: 30px 0;
-  }
+    padding: 30px 0;
+}
 .skills {
-  max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 .lastrow {
-  padding: 30px 0;
-  /* 25px top and bottom, 0 left and right */
+    padding: 30px 0;
+    /* 25px top and bottom, 0 left and right */
 }
 .lastrow::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 .social {
     text-align: center;
@@ -240,181 +245,188 @@ a:active {
     margin: 0 12px;
 }
 #ultrant .container {
-  padding: 0px 15px;
+    padding: 0px 15px;
 }
 #souschef .container {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 #traverse .container {
-  padding: 30px 15px;
-
+    padding: 30px 15px;
 }
 #ultrant .viewbutton {
-  display: inline-block;
-  margin: 15px;
-  width: 255px;
+    display: inline-block;
+    margin: 15px;
+    width: 255px;
 }
 #ultrant .projecthero {
-  width: 100%;
-  padding-top: 60px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
 }
-#ultrant .designstrategy{
-  max-height: 400px;
+#ultrant .designstrategy {
+    max-height: 400px;
 }
 #souschef .projecthero {
-  background-color: #6a94ac;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
+    background-color: #6a94ac;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
 }
 #traverse .projecthero {
-  background-color: #6a94ac;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
+    background-color: #6a94ac;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
 }
 [class*="col-"] {
     float: left;
     padding: 30px;
 }
-.c{
-font-size: 12px;
-font-style: italic;
+.c {
+    font-size: 12px;
+    font-style: italic;
 }
-.italic{
-  font-family: 'Poiret One', cursive;
-  font-style: italic;
-  text-align: center;
-  text-transform: capitalize;
-  font-size: 18px;
-  color: #bd845d;
+.italic {
+    font-family: "Poiret One", cursive;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #bd845d;
 }
-.bold-text{
-  font-weight: 400;
+.bold-text {
+    font-weight: 400;
 }
 .center {
-  text-align: center;
+    text-align: center;
 }
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-  .logo {max-width: 100px
-  }
-  header {
-    text-align: unset;
-    padding: 25px 0 25px;
-  }
+    .logo {
+        max-width: 150px;
+    }
     nav {
-        width: auto;
-        float: right;
-    }
-    nav>ul {
-      margin: 1em 0;
-    }
-    nav > ul > li {
-        display: inline-block;
-    }
-    .navtoggle li:last-child {
-      display: none;
+      width: auto;
+      float: right;
+      margin top: -8px;
     }
     .navtoggle li:not(:last-child) {
         display: inline-block;
+    }
+    .navtoggle li:last-child {
+        display: none;
+    }
+    nav > ul {
+        margin: 1em 0;
+    }
+    main{
+      padding-top: 150px;
+    }
+    .container {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .col-md-6 {
         width: 50%;
     }
     [class*="col-"] {
-      float: left;
-      padding: 30px;
+        float: left;
+        padding: 30px;
     }
     #scrollUp {
-      bottom: 20px;
-      right: 20px;
-      padding: 12px 32px;
-      border-radius: 16px;
-      background-color: transparent;
-      color: #53624f;
-      border: 2px solid #f6ebe5;
+        bottom: 20px;
+        right: 20px;
+        padding: 12px 32px;
+        border-radius: 16px;
+        background-color: transparent;
+        color: #53624f;
+        border: 2px solid #f6ebe5;
     }
-    #scrollUp:hover{
-      background-color: white;
-      color: #53624f;
-      opacity: 0.8;
-      border: 2px solid;
+    #scrollUp:hover {
+        background-color: white;
+        color: #53624f;
+        opacity: 0.8;
+        border: 2px solid;
     }
     #work h3 {
-      margin: 0;
-      padding: 0;
+        margin: 0;
+        padding: 0;
     }
 
     #about h2 {
-      margin: 0;
-      padding: 0;
+        margin: 0;
+        padding: 60px 0 30px;
     }
 
     #about h3 {
-      margin: 0;
-      padding: 0;
-      text-align: center;
+        margin: 0;
+        padding: 0;
+        text-align: center;
     }
 
     #about .row {
-      padding: 30px 0;
+        padding: 30px 0;
     }
     #about .profilepic {
-      border-radius: 50%;
-      max-width: 360px;
-      text-align: center;
+        border-radius: 50%;
+        max-width: 360px;
+        text-align: center;
     }
     .skills {
-      max-width: 640px;
-      margin-left: auto;
-      margin-right: auto;
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
     }
-  }
+    #hero {
+        text-align: center;
+        padding: 20px 0;
+        display: inline-block;
+        width: 100%;
+    }
 }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
     body {
         font-size: 18px;
     }
-    .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
+    main {
+        padding-top: 150px;
+      }
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+    .navtoggle li:last-child {
+        display: none;
+    }
+    nav > ul {
+        margin: 1em 0;
     }
     .col-lg-7 {
-      width: 60%;
+        width: 60%;
     }
-
     .col-lg-5 {
-      width: 40%;
+        width: 40%;
     }
-    #scrollUp {
-      bottom: 20px;
-      right: 20px;
-      padding: 12px 32px;
-      border-radius: 16px;
-      background-color: transparent;
-      color: #53624f;
-      border: 2px solid #f6ebe5;
+    .logo {
+        max-width: 150px;
     }
-    #scrollUp:hover{
-      background-color: white;
-      color: #53624f;
-      opacity: 0.8;
-      border: 2px solid;
-    }
-    #about .profilepic {
-      border-radius: 50%;
-      max-width: 360px;
-      text-align: center;
+    #hero {
+        text-align: center;
+        padding: 20px 0;
+        display: inline-block;
+        width: 100%;
     }
   }
