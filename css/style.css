@@ -4,9 +4,9 @@
 header {
     position: fixed;
     background-color: #e0e0de;
-    padding: 15px 0 8px;
     position: fixed;
     display: inline-block;
+    padding: 15px 0 8px;
     width: 100%;
     box-shadow: 0px 2px 4px 0px rgba(50, 50, 50, 0.75);
 }
@@ -17,21 +17,46 @@ header {
     position: relative;
 }
 .navtoggle.responsive nav {
-    padding: 24px;
+    padding: 12px;
     background-color: #e0e0de;
     width: 100%;
   }
 .navtoggle.responsive li {
     display: block;
     padding: 10px 0;
-    border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 .navtoggle li .icon {
     position: absolute;
     right: 0;
     top: 2px;
     font-size: 28px;
-    padding-right: 4px;
+}
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    margin:  1em 0;
+}
+nav > ul > li > a {
+    padding: 0 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #53624f;
+    font-family: 'Poiret One', cursive;
+}
+nav > ul > li > a:hover {
+    font-weight: 400;
+    color: #f6ebe5;
+    text-decoration: overline;
+    padding: 0 15px;
+  }
+#hero {
+    text-align: center;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+main {
+    padding-top: 150px;
 }
 body {
     background-color: #ffffff;
@@ -41,54 +66,32 @@ body {
     line-height: 1.6;
     color: #53624f;
 }
-main {
-    padding-top: 100px;
-}
-nav > ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 1em 0;
-}
-nav > ul > li > a {
-    padding: 0 12px;
-    text-transform: uppercase;
-    font-weight: 400;
-    color: #53624f;
-    font-family: 'Playfair+Display', serif;
-}
-nav > ul > li > a:hover {
-    padding: 0 15px;
-    font-weight: 700;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-decoration: overline;
-}
-#hero {
+footer {
     text-align: center;
-    padding: 50px 0;
-    display: inline-block;
-    width: 100%;
+    padding: 15px;
 }
 h1,h2,h3,h4 {
-    font-family: 'Playfair+Display', serif;;
+    font-family: 'Poiret One', cursive;
 }
 h1 {
     font-size: 2.75em;
     font-weight: 700;
     line-height: 1;
-    padding-top: 25px;
+    text-transform: uppercase;
 }
 
 h2 {
     font-size: 2.25em;
     font-weight: 700;
     line-height: 1.4;
+    text-transform: uppercase;
 }
 
 h3 {
     font-size: 1.75em;
     font-weight: 400;
     line-height: 1.4;
+    text-transform: uppercase;
 }
 h4 {
     font-size: 1.35em;
@@ -115,11 +118,16 @@ a:active {
     /* selected link */
     color: #bd845d;
 }
+.workimage:hover {
+  transform: scale(1.0125);
+}
 .button.contact {
     background-color: transparent;
     color: #53624f;
     text-transform:  full-width;
-    border: 2px solid #ffffff;
+    border: 2px solid #f6ebe5;
+    padding: 12px 60px;
+    margin: 15px;
 }
 .button.contact:hover {
     background-color: white;
@@ -157,12 +165,6 @@ a:active {
 .container {
     padding: 0 15px;
 }
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-    padding: 0 10px;
-}
 #work .row {
     padding-bottom: 50px;
     border-bottom: 1px solid #53624f;
@@ -170,14 +172,11 @@ a:active {
 #workdescription{
   padding-right: 15px;
 }
-#hero {
-    text-align: center;
-    padding: 15px 0;
-    display: inline-block;
-    width: 100%;
-}
-#hero span {
-    display: block;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding: 0 10px;
 }
 .logo {
     max-width: 100px;
@@ -186,9 +185,37 @@ a:active {
 .workpic {
   text-align: center;
   padding-top: 30px;
+  position: inherit;
 }
 .workimage:hover {
   transform: scale(1.0125);
+}
+#about h2 {
+  padding-top: 30px;
+}
+
+#about h3 {
+  padding-top: 10px;
+    margin-top: 0;
+}
+#about h4 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-decoration: underline;
+}
+#about .profilepic {
+  border-radius: 50%;
+  max-width: 200px;
+  text-align: center;
+}
+#about .row {
+        padding: 30px 0;
+  }
+.skills {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .row::after {
   content: "";
@@ -199,15 +226,10 @@ a:active {
   padding: 30px 0;
   /* 25px top and bottom, 0 left and right */
 }
-
 .lastrow::after {
   content: "";
   clear: both;
   display: table;
-}
-footer {
-    text-align: center;
-    padding: 15px;
 }
 .social {
     text-align: center;
@@ -217,17 +239,15 @@ footer {
     display: inline-block;
     margin: 0 12px;
 }
-#ultrant {
-    padding: 0 15px;
-}
 #ultrant .container {
-  padding: 30px 15px;
+  padding: 0px 15px;
 }
 #souschef .container {
-  padding: 30px 15px;
+  padding: 0 15px;
 }
 #traverse .container {
   padding: 30px 15px;
+
 }
 #ultrant .viewbutton {
   display: inline-block;
@@ -238,35 +258,40 @@ footer {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 15px;
-  color: #ffffff;
+  background-color: #ffffff;
+}
+#ultrant .designstrategy{
+  max-height: 400px;
 }
 #souschef .projecthero {
   background-color: #6a94ac;
   width: 100%;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 15px;
-  color: #ffffff;
+  background-color: #ffffff;
 }
 #traverse .projecthero {
   background-color: #6a94ac;
   width: 100%;
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 15px;
-  color: #ffffff;
+  background-color: #ffffff;
 }
 [class*="col-"] {
     float: left;
-}
-#scrollUp {
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
-  background: #555;
-  color: #fff;
+    padding: 30px;
 }
 .c{
-font-size: 10px;
+font-size: 12px;
 font-style: italic;
+}
+.italic{
+  font-family: 'Poiret One', cursive;
+  font-style: italic;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #bd845d;
 }
 .bold-text{
   font-weight: 400;
@@ -274,21 +299,19 @@ font-style: italic;
 .center {
   text-align: center;
 }
-#about-page h3 {
-    margin-top: 0;
-}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-    header {
-        text-align: unset;
-        padding: 20px 0 13px;
-    }
+  .logo {max-width: 100px
+  }
+  header {
+    text-align: unset;
+    padding: 25px 0 25px;
+  }
     nav {
         width: auto;
         float: right;
-        margin-top: 4px;
     }
     nav>ul {
       margin: 1em 0;
@@ -296,22 +319,64 @@ Medium devices (640px and larger)
     nav > ul > li {
         display: inline-block;
     }
+    .navtoggle li:last-child {
+      display: none;
+    }
     .navtoggle li:not(:last-child) {
         display: inline-block;
     }
-    .navtoggle li:last-child {
-        display: none;
+    .col-md-6 {
+        width: 50%;
     }
     [class*="col-"] {
       float: left;
       padding: 30px;
     }
-    .col-md-6 {
-        width: 50%;
+    #scrollUp {
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 32px;
+      border-radius: 16px;
+      background-color: transparent;
+      color: #53624f;
+      border: 2px solid #f6ebe5;
     }
-    #about-page h3 {
-        margin-top: 0;
+    #scrollUp:hover{
+      background-color: white;
+      color: #53624f;
+      opacity: 0.8;
+      border: 2px solid;
     }
+    #work h3 {
+      margin: 0;
+      padding: 0;
+    }
+
+    #about h2 {
+      margin: 0;
+      padding: 0;
+    }
+
+    #about h3 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    #about .row {
+      padding: 30px 0;
+    }
+    #about .profilepic {
+      border-radius: 50%;
+      max-width: 360px;
+      text-align: center;
+    }
+    .skills {
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 }
 /* ==============================
 Large devices (1024px or larger)
@@ -332,5 +397,24 @@ Large devices (1024px or larger)
     .col-lg-5 {
       width: 40%;
     }
+    #scrollUp {
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 32px;
+      border-radius: 16px;
+      background-color: transparent;
+      color: #53624f;
+      border: 2px solid #f6ebe5;
+    }
+    #scrollUp:hover{
+      background-color: white;
+      color: #53624f;
+      opacity: 0.8;
+      border: 2px solid;
+    }
+    #about .profilepic {
+      border-radius: 50%;
+      max-width: 360px;
+      text-align: center;
+    }
   }
-}

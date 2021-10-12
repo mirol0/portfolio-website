@@ -4,62 +4,66 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="author" content="Morgan Madden" />
         <meta name="description" content="Short description including keywords related to the pages content for SEO purposes" />
-        <title>Ultrant Project</title>
+        <title>Morgan Madden UX/UI Designer Boulder</title>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href="img/logo/favicon.ico" rel="shortcut icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://kit.fontawesome.com/760cb26276.js" crossorigin="anonymous"></script>
         <script src="jQuery.min.js"></script>
         <script src="jQuery.scrollSpeed.js"></script>
     </head>
 
     <body>
-        <header>
-            <!-- orange block-->
-            <div class="container">
-                <!-- yellow block-->
-                <div class="navtoggle" id="myNavtoggle">
-                    <img class="logo" src="img/logo/logo.png" alt="logo" />
+      <header>
+          <!-- orange block-->
+          <div>
+              <!-- yellow block-->
+              <div class="navtoggle" id="myNavtoggle">
+                  <a href="index.html"> <img class="logo" src="img/logo/logo.png" alt="Morgan Madden UX/UI Designer logo" /></a>
 
-                    <nav>
-                        <ul>
-                            <li><a href="index.html">Work</a></li>
-                            <li><a href="about.html#skills">About</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="javascript:void(0);" class="icon" onclick="myNavtoggle()"><i class="fas fa-bars"></i></a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-
-        <main>
+                  <nav>
+                      <ul>
+                          <li><a href="index.html" onclick="menuToggle()">Work</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
+                          </li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      </header>
+      <main>
+        <div id="ultrant">
+          <div class="projecthero">
             <div>
-                <div class="container">
-                    <h1>Ultrant</h1>
-                </div>
-
-                <div id="ultrant">
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/title_mockup_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/title_mockup_@2x.png" alt="Ultrant Project" />
-                        </picture>
-                        <p>
-                            The problem: The objective of the design brief was to help people save money quickly in preparation for a big purchase or expenditure by creating a mobile personal finance app that is accessible for users on the
-                            go, and at all levels of tech know-how.
-                        </p>
-                        <p>The solution: Design a motivational tool for personal finance goals that is accessible and supportive.</p>
+              <div class="center">
+                <picture>
+                  <source srcset="img/ultrant/ultrant_heropic@1x.png" media="(max-width:767px)" />
+                  <img src="img/ultrant/ultrant_heropic@2x.png" alt="Ultrant Project" />
+                </picture>
+              </div>
+            </div>
+            <h1 class="center">Ultrant: A Motivational Financial App</h1>
+        </div>
+        <div>
+        <div class="container">
+          <div>
+            <div>
+              <h2> Overview</h2>
+                        <p>Ultrant is a motivational tool for personal finance goals, that is both accessible and positve.</p>
                         <p>Role: User Research, UX/UI Design</p>
                         <p>Resources: Adobe XD, Balsamiq, Canva, Ellevest, inVision, Mint, Miro, Paper and Pen, Storyset, UXPressia</p>
                     </div>
-
                     <div>
                         <h2>My Process</h2>
                     </div>
                     <div>
-                        <picture class="img">
+                        <picture class="designstrategy">
                             <source srcset="img/ultrant/design_strategy_@1x.png" media="(max-width:767px)" />
                             <img src="img/ultrant/design_strategy_@2x.png" alt="Ultrant Design Strategy" />
                         </picture>
@@ -78,20 +82,13 @@
                             I conducted research on several competitors and quickly realized there is room in the market for a tool that not only provides a place to input your financial information and organize it into goals, but also does
                             it in a creative, confident and supportive manner.
                         </p>
-                        <p>Two of my favorites, Ellevest and Mint, both had traits that inspired me.</p>
-                        <p>Ellevest has a professional, yet conversational design language that infuses trust into every task.</p>
-                        <p>Mint relies on a soothing, cool, blue color and easy to understand onboarding information to ensure quick comprehension.</p>
+                        <p>Two of my favorites, Ellevest and Mint, both had traits that inspired me. Ellevest, seen below on the left, has a professional, yet conversational design language that infuses trust into every task.
+                          While, Mint, on the other hand, relies on a soothing, cool blue color and easy to understand onboarding information to ensure quick comprehension.</p>
                     </div>
                     <div>
                         <picture class="img">
-                            <source srcset="img/ultrant/ellevest_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/ellevest_@2x.png" alt="Ultrat: Competitive Analysis" />
-                        </picture>
-                    </div>
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/mint_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/mint_@2x.png" alt="Ultrant Project" />
+                            <source srcset="img/ultrant/competitors@1x.png" media="(max-width:767px)" />
+                            <img src="img/ultrant/competitors@2x.png" alt="Ultrat: Competitive Analysis" />
                         </picture>
                     </div>
                     <div>
@@ -126,13 +123,6 @@
                             <img src="img/ultrant/user_persona2_@2x.png" alt="persona2" />
                         </picture>
                     </div>
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/user_persona1_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/user_persona1_@2x.png" alt="persona" />
-                        </picture>
-                    </div>
-
                     <div>
                         <div>
                             <h3>Ideation</h3>
@@ -243,21 +233,25 @@
                                 <img src="img/ultrant/pinstripe_mockup_@2x.png" alt="pinstripe mockup" />
                             </picture>
                         </div>
-                        <p>Thanks for viewing my work. I hope you enjoyed it!</p>
+                        <p class="center">Thanks for viewing my work. I hope you enjoyed it!</p>
                     </div>
                 </div>
             </div>
         </main>
 
-        <footer id="contact">
+        <footer id="contact" style="background-image: url('https://static.wixstatic.com/media/6f22ae_ca538925f40e413fabfc4d932701ae1a~mv2.png');">
             <div class="container">
-                <h2>Wanna drop a line?</h2>
-                <p>Please get in touch at:</p>
-                <p>I look forward to hearing from you.</p>
-                <p>Currently splitting time between Boulder, CO and Duluth, MN.</p>
-                <div>
-                    <a href="mailto:morganimadden@gmail.com" class="button contact">Email me </a>
+                <h2>- Contact -</h2>
+                <p>I'd love to connect! Drop me a line at: </p>
+                <div class="social">
+                    <a href="mailto:morganimadden@gmail.com" target="_blank">
+                        <span>
+                            <strong class="bold-text">morganimadden@gmail.com</strong>
+                        </span>
+                    </a>
                 </div>
+                <p>Thanks for coming by. I look forward to hearing from you!</p>
+                <p>Currently residing in Boulder, CO.</p>
                 <div class="social">
                     <a href="https://www.linkedin.com/in/morganimadden/" target="_blank">
                         <i class="fab fa-linkedin"></i>
@@ -266,7 +260,11 @@
                         <i class="fab fa-behance-square"></i>
                     </a>
                 </div>
-                <p>Copyright MORGAN-MADDEN 2021</p>
+                     <em>
+                        The land that supports my work is within the traditional territories of the Arapaho and Ute peoples. <br />
+                        I acknowledge them & the 48 contemporary tribal nations tied to the land that make up the state of Colorado.
+                    </em>
+                      <p class="c">© 2021 Morgan Rolón Madden</p>
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
