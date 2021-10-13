@@ -6,235 +6,265 @@
         <meta name="description" content="Short description including keywords related to the pages content for SEO purposes" />
         <title>Morgan Madden UX/UI Designer Boulder</title>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href="img/logo/favicon.ico" rel="shortcut icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script src="https://kit.fontawesome.com/760cb26276.js" crossorigin="anonymous"></script>
-        <script src="jQuery.min.js"></script>
-        <script src="jQuery.scrollSpeed.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
     </head>
 
     <body>
-      <header>
-          <!-- orange block-->
-          <div>
-              <!-- yellow block-->
-              <div class="navtoggle" id="myNavtoggle">
-                  <a href="index.html"> <img class="logo" src="img/logo/logo.png" alt="Morgan Madden UX/UI Designer logo" /></a>
+        <header>
+            <!-- orange block-->
+            <div class="container">
+                <!-- yellow block-->
+                <div class="navtoggle" id="myNavtoggle">
+                    <a href="index.html"> <img class="logo" src="img/logo/logo.png" alt="Morgan Madden UX/UI Designer logo" /></a>
 
-                  <nav>
-                      <ul>
-                          <li><a href="index.html" onclick="menuToggle()">Work</a></li>
-                          <li><a href="about.html">About</a></li>
-                          <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-                          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
-                          </li>
-                      </ul>
-                  </nav>
-              </div>
-          </div>
-      </header>
-      <main>
-        <div id="ultrant">
-          <div class="projecthero">
-            <div>
-              <div class="center">
-                <picture>
-                  <source srcset="img/ultrant/ultrant_heropic@1x.png" media="(max-width:767px)" />
-                  <img src="img/ultrant/ultrant_heropic@2x.png" alt="Ultrant Project" />
-                </picture>
-              </div>
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="index.html" onclick="menuToggle()">Work</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                            <li>
+                                <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <h1 class="center">Ultrant: A Motivational Financial App</h1>
-        </div>
-        <div>
-        <div class="container">
-          <div>
-            <div>
-              <h2> Overview</h2>
-                        <p>Ultrant is a motivational tool for personal finance goals, that is both accessible and positve. This app was designed for people that might need a little motivation to save towards their goals, and provides motivational content to keep personal financial goals on track. Get ultra-finance advice with Ultrant.  </p>
-                        <p>Role: User Research, UX/UI Design</p>
-                        <p>Resources: Adobe XD, Balsamiq, Canva, Ellevest, inVision, Mint, Miro, Paper and Pen, Storyset, UXPressia</p>
-                    </div>
+        </header>
+        <main>
+            <div id="ultrant">
+                <div class="projecthero">
                     <div>
-                        <h2>My Process</h2>
-                        <p> I utilize Design Thinking Process when solving a design problem, which required me to complete competitive analysis and conduct user interviews.
-                          Based on this research, I prioritized high-priority needs and test my hypothesis. At this point, I created a high-fidelity design, tested the prototype, and continued refining my design by building iterations based on user feedback.
-                          Below is a design strategy I created that sums up my design process. </p>
-                    </div>
-                    <div>
-                        <picture class="designstrategy">
-                            <source srcset="img/ultrant/design_strategy_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/design_strategy_@2x.png" alt="Ultrant Design Strategy" />
-                        </picture>
-                    </div>
-                    <div>
-                        <div>
-                            <h3>Define: Find the (Design) North Star</h3>
+                        <div class="center">
+                            <picture>
+                                <source srcset="img/ultrant/ultrant_heropic@1x.png" media="(max-width:767px)" />
+                                <img src="img/ultrant/ultrant_heropic@2x.png" alt="Ultrant Project" />
+                            </picture>
                         </div>
-                        <p>
-                            For this design brief, the main objective was to help people save money by creating a mobile personal finance app that is motivation and accessible, both in terms of tech-ability and cross-platform use.
-                            Knowing personal finance can be a prickly  area for many people, I wanted to utilize a very friendly and inviting interface that made feel comfortable and accomplished for creating and sticking to their financial goals.
-                        </p>
                     </div>
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/competitors@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/competitors@2x.png" alt="Ultrat: Competitive Analysis" />
-                        </picture>
-                    </div>
-                    <div>
-                        <h3>Research</h3>
-                    </div>
-                    <p>
-                        I conducted research on two major competitors in the personal-finance space: Ellevest and Mint.
-                        Both brands had traits that inspired me. Ellevest, seen below on the left, has a professional, yet conversational design language that infuses trust into every task.
-                        While, Mint, on the other hand, relies on a soothing, cool blue color and easy to understand onboarding information to ensure quick comprehension. I knew these were elements I wanted my app to possess as well. </p>
-                    <p>
-                        The next phase of my research required me to investigate the ideal user. The design brief provided ample information about the target user and their motivations, which helped steer me towards finding my design star. For this design I focused on three:
-                    <p> As a new user, I need to be able to create a profile, so that the financial advice I receive is personalized to me, my spending habits, and tailored to my goals.</p>
-                    <p> As a user, I want the money-saving tool I use to be motivational, so that I stay on track with my goals.</p>
-                    <p> As a user, I want to receive a personalized savings plan, so that I can save enough money to reach my goal in time.</p>
-                    <p>
-                        With these stories in mind, I conducted interviews (12 total) to determine other motivations and pain points users experience. I quickly found there was space in the market for the kind of tool I was envisioning;
-                        one where you can easily input your information and organize it into goals, too, and along the way you'll be supported in a creative, confident voice.
-                        Enter Ultrant: your personalized motivational tool for personal saving goals. This tool is designed to be used by ANY and
-                        EVERYone, so we can all achieve our msot fabulous saving goals.
-                    </p>
-                    <p></p>
-                    <div>
-                        <h4>User Flow</h4>
-                    </div>
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/ultrant_userflow_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/ultrant_userflow_@2x.png" alt="user flow" />
-                        </picture>
-                    </div>
-                    <div>
-                        <h4>User Personas</h4>
-                    </div>
-                    <p> I took my findings and compiled them into 2 composite user personas that I relied on to focus on the needs and behaviors of the user. One persona reflects a new user, who struggles more with tech, and the other is a little more knowledgeable, but is intimidated of personal finance. </p>
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/user_persona2_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/user_persona2_@2x.png" alt="persona2" />
-                        </picture>
-                    </div>
-                    <div>
+                    <h1 class="center">Ultrant: A Motivational Financial App</h1>
+                </div>
+                <div>
+                    <div class="container">
                         <div>
-                            <h3>Ideation</h3>
-                        </div>
-                        <p>
-                            The word accessible was emphasized in the design brief. I decided I wanted the design to be accessible in many ways; from how it is accessed and how the information is absorbed. I wanted to combine the calm,
-                            professional tone of the fintech industry with the warm and friendly illustrations and casual, creative tone of a mental-health and wellness-type brand. Enter ultrant: the personalized motivational tool for
-                            personal money saving goals. It is a tool designed for anyone and everyone because we all deserve to achieve our most fabulous goals.
-                        </p>
-                        <p>Knowing the motivational tone of the app is the functionality that sets it apart from competitors, I decided to prioritize this task for for this iteration, as part of my design strategy.</p>
-                    </div>
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/about_ultrant_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/about_ultrant_@2x.png" alt="about ultrant" />
-                        </picture>
-                    </div>
-                    <div>
-                        <div>
-                            <h3>Wireframe</h3>
-                        </div>
-                        <p>
-                            At this stage, I take my user personas and user flow to begin designing the screens. Initially, paper and pen are used to draw quick low-fidelity wireframes that can be adapted easily. After those feel strong, it
-                            is time to transfer them digitally. I used Balsamiq to create initial versions of mid-fidelity wireframes.
-                        </p>
-                        <p>
-                            With my mid-fidelity wireframes completed, I turned to inVision to create prototypes, My 8 person sample size, made up of members of my social and professional networks, tested the prototypes and provided
-                            consistent feedback that the log in flow needed some clarification, as well as the information hierarchy, but the basic design made sense and there was an apparent need for this motivational feature to exist.
-                            Below is a sample of the user analysis. From there, I took the feedback and utilized it in the high fidelity versions.
-                        </p>
-                    </div>
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/Ultrant_sketch_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/Ultrant_sketch_@2x.png" alt="low fidelity" />
-                        </picture>
-                    </div>
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/mid_fidelity_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/mid_fidelity_@2x.png" alt="mid fidelity" />
-                        </picture>
-                    </div>
+                            <div>
+                                <h2>Overview</h2>
+                                <p>
+                                    Ultrant is a motivational tool for personal finance goals, that is both accessible and positve. This app was designed for people that might need a little motivation to save towards their goals, and
+                                    provides motivational content to keep personal financial goals on track. Get ultra-finance advice with Ultrant.
+                                </p>
+                                <p>Role: User Research, UX/UI Design</p>
+                                <p>Resources: Adobe XD, Balsamiq, Canva, Ellevest, inVision, Mint, Miro, Paper and Pen, Storyset, UXPressia</p>
+                            </div>
+                            <div>
+                                <h2>My Process</h2>
+                                <p>
+                                    I utilize Design Thinking Process when solving a design problem, which required me to complete competitive analysis and conduct user interviews. Based on this research, I prioritized high-priority needs
+                                    and test my hypothesis. At this point, I created a high-fidelity design, tested the prototype, and continued refining my design by building iterations based on user feedback. Below is a design strategy I
+                                    created that sums up my design process.
+                                </p>
+                            </div>
+                            <div>
+                                <picture class="designstrategy">
+                                    <source srcset="img/ultrant/design_strategy_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/design_strategy_@2x.png" alt="Ultrant Design Strategy" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>Define: Find the (Design) North Star</h3>
+                            </div>
+                            <p>
+                                For this design brief, the main objective was to help people save money by creating a mobile personal finance app that is motivation and accessible, both in terms of tech-ability and cross-platform use.
+                                Knowing personal finance can be a prickly area for many people, I wanted to utilize a very friendly and inviting interface that made feel comfortable and accomplished for creating and sticking to their
+                                financial goals.
+                            </p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/competitors@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/competitors@2x.png" alt="Ultrat: Competitive Analysis" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>Research</h3>
+                            </div>
+                            <p>
+                                I conducted research on 2 major competitors in the personal-finance space: Ellevest and Mint. Both brands had traits that inspired me. Ellevest, seen below on the left, has a professional, yet conversational
+                                design language that infuses trust into every task. While, Mint, on the other hand, relies on a soothing, cool blue color and easy to understand onboarding information to ensure quick comprehension. I knew
+                                these were elements I wanted my app to possess as well.
+                            </p>
+                            <p>
+                                The next phase of my research required me to investigate the ideal user. The design brief provided ample information about the target user and their motivations, which helped steer me towards finding my
+                                design star. For this design I focused on 3:
+                            </p>
 
-                    <div>
-                        <div>
-                            <h3>Design</h3>
+                            <ul>
+                                <li>As a new user, I need to be able to create a profile, so that the financial advice I receive is personalized to me, my spending habits, and tailored to my goals.</li>
+                                <li>As a user, I want the money-saving tool I use to be motivational, so that I stay on track with my goals.</li>
+                                <li>As a user, I want to receive a personalized savings plan, so that I can save enough money to reach my goal in time.</li>
+                            </ul>
+                            <p>
+                                With these stories in mind, I conducted interviews (12 total) to determine other motivations and pain points users experience. I quickly found there was space in the market for the kind of tool I was
+                                envisioning; one where you can easily input your information and organize it into goals, too, and along the way you'll be supported in a creative, confident voice. Enter Ultrant: your personalized
+                                motivational tool for personal saving goals. This tool is designed to be used by ANY and EVERYone, so we can all achieve our msot fabulous saving goals.
+                            </p>
+                            <div>
+                                <h4>User Personas</h4>
+                            </div>
+                            <p>
+                                I took my findings and compiled them into 2 composite user personas that I relied on to focus on the needs and behaviors of the user. One persona reflects a new user, who struggles more with tech, and the
+                                other is a little more knowledgeable, but is intimidated of personal finance.
+                            </p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/user_persona2_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/user_persona2_@2x.png" alt="persona2" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h4>User Flow</h4>
+                            </div>
+                            <p>Building further upon the user stories and personas, I created a site map in order to visualize the information hierarchy and provide structure for the app.</p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/ultrant_userflow_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/ultrant_userflow_@2x.png" alt="user flow" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>Ideation</h3>
+                            </div>
+                            <p>
+                                The word accessible was emphasized in the design brief. I decided I wanted the design to be accessible in many ways; from how it is accessed and how the information is absorbed. I wanted to combine the calm,
+                                professional tone of the fintech industry with the warm and friendly illustrations and casual, creative tone of a mental-health and wellness-type brand. Enter ultrant: the personalized motivational tool for
+                                personal money saving goals. It is a tool designed for anyone and everyone because we all deserve to achieve our most fabulous goals.
+                            </p>
+                            <p>Knowing the motivational tone of the app is the functionality that sets it apart from competitors, I decided to prioritize this task for for this iteration, as part of my design strategy.</p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/about_ultrant_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/about_ultrant_@2x.png" alt="about ultrant" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>Wireframe</h3>
+                            </div>
+                            <div>
+                                <h4>Low Fidelity Iteration</h4>
+                            </div>
+                            <p>
+                                At this stage, I took my user personas and user flow to begin designing the screens. Initially, paper and pen are used to draw quick low-fidelity wireframes that can be adapted easily.
+                            </p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/Ultrant_sketch_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/Ultrant_sketch_@2x.png" alt="low fidelity" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h4>Mid-Fidelity Iteration</h4>
+                            </div>
+                            <p>
+                                After those feel strong, it is time to transfer them digitally.I used Balsamiq to create initial versions of mid-fidelity wireframes.
+                            </p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/mid_fidelity_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/mid_fidelity_@2x.png" alt="mid fidelity" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>Design</h3>
+                            </div>
+                            <p>
+                                At this stage of the design project, it was time to focus on creating that positive, creative, supportive tone that feels inclusive and instills trust. Consumer Affairs reports that only 20% of consumers
+                                prefer a visit to a physical bank over a digital experience. Another statistic states that over half of Americans delay making financial decisions. What this says is there are a lot of individuals looking to
+                                have a positive experience with their personal finance tool, and they need a little guidance in making decisions to save and invest their money properly.
+                            </p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/styleguide_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/styleguide_@2x.png" alt="ultrant style guide" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>Prototype</h3>
+                            </div>
+                            <p>
+                                With my mid-fidelity wireframes completed, I turned to inVision to create prototypes. My 8-person sample size completed 4 tasks I created and provided consistent, insightful feedback, which ultimately led to
+                                an improved login flow, clearer information hierarchy, and a strong support of this motivational feature. From there, I took the feedback and incorporated it in the high fidelity versions.
+                            </p>
+                            <p>Below is a sample of the user feedback and next iteration wireframes.</p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/feedback_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/feedback_@2x.png" alt="high fidelity" />
+                                </picture>
+                            </div>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/high_fidelity_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/high_fidelity_@2x.png" alt="high fidelity" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>Final Design: Mission Accomplished</h3>
+                            </div>
+                            <div>
+                                <h4>Key Design Feature: Easy Onboarding</h4>
+                            </div>
+                            <p>?? describe feedback input and research, etc.</p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/onboard_mockup_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/onboard_mockup_@2x.png" alt="onboard mockup" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h4>Key Design Feature: Adding Personalized Goals</h4>
+                            </div>
+                            <p>?? describe feedback input and research, etc.</p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/add_goal_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/add_goal_@2x.png" alt="add goal mockup" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h4>Key Design Feature: Motivational Content</h4>
+                            </div>
+                            <p>?? describe feedback input and research, etc.</p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/ultrant/pinstripe_mockup_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/ultrant/pinstripe_mockup_@2x.png" alt="pinstripe mockup" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>Conclusion</h3>
+                            </div>
+                            <div>
+                                <h4>Areas of Improvement</h4>
+                            </div>
+                            <p>
+                                Being very clear on the design strategy helped the rest of this design fall into place easily later. I also think having an essential flow, or MVP, was a great strategy in the design process in order to
+                                prioritize the positive UX/UI experience. Throughout this process I learned to be more organized with documentation and handoff and more iterative in my design process.
+                            </p>
+                            <div>
+                                <h4>Next Iteration</h4>
+                            </div>
+                            <p>The next steps for this project would be to expand testing and functionality. EXPAND HERE!!</p>
+                            <div>
+                                <h4>Thanks for viewing my work.</h4>
+                            </div>
+                            <p>I hope you enjoyed it! I know I sure did making it.</p>
                         </div>
-                        <p>
-                            At this stage of the design project, it was time to focus on creating that positive, creative, supportive tone that feels inclusive and instills trust. Consumer Affairs reports that only 20% of consumers prefer a
-                            visit to a physical bank over a digital experience. Another statistic states that over half of Americans delay making financial decisions.What this says to me is there are a lot of individuals looking to have a
-                            positive experience with their personal finance tool, and they need a little guidance in making decisions to save and invest their money properly.
-                        </p>
-                    </div>
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/styleguide_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/styleguide_@2x.png" alt="ultrant style guide" />
-                        </picture>
-                    </div>
-                    <div>
-                        <div>
-                            <h3>Prototype</h3>
-                        </div>
-                        <p>
-                            With my mid-fidelity wireframes completed, I turned to inVision to create prototypes, My 8 person sample size, made up of members of my social and professional networks, tested the prototypes and provided
-                            consistent feedback that the log in flow needed some clarification, as well as the information hierarchy, but the basic design made sense and there was an apparent need for this motivational feature to exist.
-                            Below is a sample of the user analysis. From there, I took the feedback and utilized it in the high fidelity versions.
-                        </p>
-                    </div>
-                    <div>
-                        <picture class="img">
-                            <source srcset="img/ultrant/high_fidelity_@1x.png" media="(max-width:767px)" />
-                            <img src="img/ultrant/high_fidelity_@2x.png" alt="high fidelity" />
-                        </picture>
-                    </div>
-                    <div>
-                        <div>
-                            <h2>Conclusion</h2>
-                        </div>
-                        <p>
-                            Being very clear on the design strategy helped the rest of this design fall into place easily later. I also think having an essential flow, or MVP, was a great strategy in the design process in order to
-                            prioritize the positive UX/UI experience. Throughout this process I learned to be more organized with documentation and handoff and more iterative in my design process. The next steps for this project would be to
-                            expand testing and functionality.
-                        </p>
-                        <p>Here is my final design solution for Ultrant.</p>
-                        <div>
-                            <picture class="img">
-                                <source srcset="img/ultrant/final_screens_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/final_screens_@2x.png" alt="final ultrant screens" />
-                            </picture>
-                        </div>
-                        <div>
-                            <picture class="img">
-                                <source srcset="img/ultrant/onboard_mockup_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/onboard_mockup_@2x.png" alt="onboard mockup" />
-                            </picture>
-                        </div>
-                        <div>
-                            <picture class="img">
-                                <source srcset="img/ultrant/add_goal_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/add_goal_@2x.png" alt="add goal mockup" />
-                            </picture>
-                        </div>
-                        <div>
-                            <picture class="img">
-                                <source srcset="img/ultrant/pinstripe_mockup_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/pinstripe_mockup_@2x.png" alt="pinstripe mockup" />
-                            </picture>
-                        </div>
-                        <p class="center">Thanks for viewing my work. I hope you enjoyed it!</p>
                     </div>
                 </div>
             </div>
@@ -243,7 +273,7 @@
         <footer id="contact" style="background-image: url('https://static.wixstatic.com/media/6f22ae_ca538925f40e413fabfc4d932701ae1a~mv2.png');">
             <div class="container">
                 <h2>- Contact -</h2>
-                <p>I'd love to connect! Drop me a line at: </p>
+                <p>I'd love to connect! Drop me a line at:</p>
                 <div class="social">
                     <a href="mailto:morganimadden@gmail.com" target="_blank">
                         <span>
@@ -261,15 +291,15 @@
                         <i class="fab fa-behance-square"></i>
                     </a>
                 </div>
-                     <em>
-                        The land that supports my work is within the traditional territories of the Arapaho and Ute peoples. <br />
-                        I acknowledge them & the 48 contemporary tribal nations tied to the land that make up the state of Colorado.
-                    </em>
-                      <p class="c">© 2021 Morgan Rolón Madden</p>
+                <em>
+                    The land that supports my work is within the traditional territories of the Arapaho and Ute peoples. <br />
+                    I acknowledge them & the 48 contemporary tribal nations tied to the land that make up the state of Colorado.
+                </em>
+                <p class="c">© 2021 Morgan Rolón Madden</p>
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src= "js/jquery.scrollUp.js"></script>
+        <script src="js/jquery.scrollUp.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>

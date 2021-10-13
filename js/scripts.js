@@ -7,16 +7,7 @@ function menuToggle(){
     }
   }
 
-  $(function(){
-    $.scrollUp();
-  });
-  $(function() {
-      // Default
-      jQuery.scrollSpeed(100, 800);
 
-      // Custom Easing
-      jQuery.scrollSpeed(100, 800, 'easeOutCubic');
-  });
 
 
 console.log("Hello World!");

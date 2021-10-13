@@ -102,6 +102,7 @@ h4 {
     font-size: 1.35em;
     font-weight: 400;
     line-height: 1.4;
+    text-decoration: underline;
 }
 img {
     max-width: 100%;
@@ -202,12 +203,6 @@ a:active {
 #about h3 {
     padding-top: 10px;
     margin-top: 0;
-}
-#about h4 {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    text-decoration: underline;
 }
 #about .profilepic {
     border-radius: 50%;
@@ -368,6 +363,9 @@ Medium devices (640px and larger)
         margin: 0;
         padding: 0;
         text-align: center;
+    }
+    #about h4{
+        text-decoration: underline;
     }
 
     #about .row {
