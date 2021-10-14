@@ -13,7 +13,8 @@ header {
 .navtoggle li:not(:last-child) {
     display: none;
 }
-.navtoggle,.navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
     position: relative;
 }
 .navtoggle.responsive nav {
@@ -167,6 +168,21 @@ a:active {
     opacity: 100%;
     text-decoration: underline;
 }
+.comingsoon {
+    display: inline-block;
+    /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+    background-color: #53624f;
+    color: #e0e0de;
+    /* needed to override the default link color */
+    padding: 12px 32px;
+    border-radius: 16px;
+    font-style: bold;
+    text-decoration: none;
+    border: 2px solid #e0e0de;
+}
+.disabled {
+    pointer-events: none;
+}
 /*layout styling*/
 .container {
     padding: 0 15px;
@@ -199,7 +215,6 @@ a:active {
 #about h2 {
     padding-top: 30px;
 }
-
 #about h3 {
     padding-top: 10px;
     margin-top: 0;
@@ -263,11 +278,8 @@ a:active {
     max-height: 400px;
 }
 #souschef .projecthero {
-    background-color: #6a94ac;
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 15px;
-    background-color: #ffffff;
+    margin-top: -4.25em;
 }
 #traverse .projecthero {
     background-color: #6a94ac;
@@ -306,9 +318,9 @@ Medium devices (640px and larger)
         max-width: 150px;
     }
     nav {
-      width: auto;
-      float: right;
-      margin top: -8px;
+        width: auto;
+        float: right;
+        margin-top: -8px;
     }
     .navtoggle li:not(:last-child) {
         display: inline-block;
@@ -319,13 +331,13 @@ Medium devices (640px and larger)
     nav > ul {
         margin: 1em 0;
     }
-    main{
-      padding-top: 150px;
+    main {
+        padding-top: 150px;
     }
     .container {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .col-md-6 {
         width: 50%;
@@ -364,7 +376,7 @@ Medium devices (640px and larger)
         padding: 0;
         text-align: center;
     }
-    #about h4{
+    #about h4 {
         text-decoration: underline;
     }
 
@@ -387,22 +399,26 @@ Medium devices (640px and larger)
         display: inline-block;
         width: 100%;
     }
+    #souschef .projecthero {
+        width: 100%;
+        margin-top: -6.2em;
+    }
 }
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  .container{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     body {
         font-size: 18px;
     }
     main {
         padding-top: 150px;
-      }
+    }
     .navtoggle li:not(:last-child) {
         display: inline-block;
     }
@@ -427,4 +443,8 @@ Large devices (1024px or larger)
         display: inline-block;
         width: 100%;
     }
-  }
+    #souschef .projecthero {
+        width: 100%;
+        margin-top: -6.2em;
+    }
+}

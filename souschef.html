@@ -4,250 +4,203 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="author" content="Morgan Madden" />
         <meta name="description" content="Short description including keywords related to the pages content for SEO purposes" />
-        <title>Ultrant Project</title>
+        <title>Morgan Madden UX/UI Designer Boulder</title>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link href="img/logo/favicon.ico" rel="shortcut icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <script src="https://kit.fontawesome.com/760cb26276.js" crossorigin="anonymous"></script>
-        <script src="jQuery.min.js"></script>
-        <script src="jQuery.scrollSpeed.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
     </head>
 
     <body>
-      <header>
-          <!-- orange block-->
-          <div class="container">
-              <!-- yellow block-->
-              <div class="navtoggle" id="myNavtoggle">
-              <img class="logo" src="img/logo/logo.png" alt="logo" />
+        <header>
+            <!-- orange block-->
+            <div class="container">
+                <!-- yellow block-->
+                <div class="navtoggle" id="myNavtoggle">
+                    <a href="index.html"> <img class="logo" src="img/logo/logo.png" alt="Morgan Madden UX/UI Designer logo" /></a>
 
-              <nav>
-                  <ul>
-                      <li><a href="index.html">Work</a></li>
-                      <li><a href="about.html#skills">About</a></li>
-                      <li><a href="#contact">Contact</a></li>
-                      <li><a href="javascript:void(0);" class="icon" onclick="myNavtoggle()"><i class="fas fa-bars"></i></a></li>
-                  </ul>
-              </nav>
-          </div>
-        </div>
-      </header>
-
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="index.html" onclick="menuToggle()">Work</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+                            <li>
+                                <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
         <main>
-            <div>
-                <div>
-                    <div>
-                        <h1>Ultrant</h1>
+            <div id="souschef">
+                <div class="projecthero">
+                    <div class="center">
+                        <picture class="heropic">
+                            <source srcset="img/souschef/multiple_phones_mockup_@1x.png" media="(max-width:767px)" />
+                            <img src="img/souschef/multiple_phones_mockup_@2x.png" alt="Sous Chef Project" />
+                        </picture>
                     </div>
-
-                    <div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/title_mockup_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/title_mockup_@2x.png" alt="Ultrant Project" />
-                            </picture>
-                            <p>
-                                The problem: The objective of the design brief was to help people save money quickly in preparation for a big purchase or expenditure by creating a mobile personal finance app that is accessible for users on
-                                the go, and at all levels of tech know-how.
-                            </p>
-                            <p>The solution: Design a motivational tool for personal finance goals that is accessible and supportive.</p>
-                            <p>Role: User Research, UX/UI Design</p>
-                            <p>Resources: Adobe XD, Balsamiq, Canva, Ellevest, inVision, Mint, Miro, Paper and Pen, Storyset, UXPressia</p>
-                        </div>
-
-                        <div>
-                            <h2>My Process</h2>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/design_strategy_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/design_strategy_@2x.png" alt="Ultrant Design Strategy" />
-                            </picture>
-                        </div>
+                </div>
+                <div>
+                    <h2 class="center">Sous Chef</h2>
+                </div>
+                <div>
+                    <div class="container">
                         <div>
                             <div>
-                                <h3>Define</h3>
+                                <h3>01 - My Design Process</h3>
+                                <h4>A Big Picture Look At The Design Problem</h4>
                             </div>
                             <p>
-                                For this design brief, the main objective was to help people save money quickly in preparation for a big purchase or expenditure by creating a mobile personal finance app that is accessible for users on the
-                                go, and at all levels of tech know-how. After conducting research on the fintech app competitors, I found there was space in the market for a tool that not only provides a place to input your financia
-                                information and organize it into goals, but provides a creative, confident, and supportive voice. Enter Ultrant: your personalized motivational tool for personal saving goals. This tool is designed to be used
-                                by ANY and EVERYone, so we can all achieve our msot fabulous saving goals.
+                                The big picture with Sous Chef was to join the home-cooking revolution by designing an all-star responsive web app for recipes that helps users in the kitchen and on-the-go. But, to put it simply, there are
+                                oodles of options out there for folks to get their recipes, make lists, or find a dinner recipe that's ready in under 30 minutes. My job was to design a tool that makes the whole pocess of deciding what to
+                                eat, shoopping for it, and eating it a treat! Sous Chef is a responsive web for recipes, making import easier than ever to have your recipes sync up with all your devices, whether you're out for groceries or
+                                stirring the kettle, Sous Chef is there.
                             </p>
-                            <p>
-                                I conducted research on several competitors and quickly realized there is room in the market for a tool that not only provides a place to input your financial information and organize it into goals, but also
-                                does it in a creative, confident and supportive manner.
-                            </p>
-                            <p>Two of my favorites, Ellevest and Mint, both had traits that inspired me.</p>
-                            <p>Ellevest has a professional, yet conversational design language that infuses trust into every task.</p>
-                            <p>Mint relies on a soothing, cool, blue color and easy to understand onboarding information to ensure quick comprehension.</p>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/ellevest_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/ellevest_@2x.png" alt="Ultrat: Competitive Analysis" />
-                            </picture>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/mint_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/mint_@2x.png" alt="Ultrant Project" />
-                            </picture>
-                        </div>
-                        <div>
-                            <h3>Research</h3>
-                        </div>
-                        <p>
-                            The next phase of my research required me to investigate the ideal user. The design brief provided ample information about the target user and their motivations. The 3 I focused on for this project design were:
-                        </p>
-                        <p>- As a new user, I need to be able to create a profile, so that the financial advice I receive is personalized to me, my spending habits, and tailored to my goals.</p>
-                        <p>- As a user, I want the money-saving tool I use to be motivational, so that I stay on track with my goals.</p>
-                        <p>- As a user, I want to receive a personalized savings plan, so that I can save enough money to reach my goal in time.</p>
-                        <p>
-                            With these stories in mind, I conducted some interviews to determine other motivations and pain points users experience. Then, with the help of the tool UXPressia, I created personas as a visual inspiration, and
-                            as a reminder as to who this service is targeting.
-                        </p>
-                        <p></p>
-                        <div>
-                            <h4>User Flow</h4>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/ultrant_userflow_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/ultrant_userflow_@2x.png" alt="user flow" />
-                            </picture>
-                        </div>
-                        <div>
-                            <h4>User Personas</h4>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/user_persona2_@1xpng" media="(max-width:767px)" />
-                                <img src="img/ultrant/user_persona2_@2x.png" alt="persona2" />
-                            </picture>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/user_persona1_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/user_persona1_@2x.png" alt="persona" />
-                            </picture>
-                        </div>
-
-                        <div>
-                            <div>
-                                <h3>Ideation</h3>
-                            </div>
-                            <p>
-                                The word accessible was emphasized in the design brief. I decided I wanted the design to be accessible in many ways; from how it is accessed and how the information is absorbed. I wanted to combine the calm,
-                                professional tone of the fintech industry with the warm and friendly illustrations and casual, creative tone of a mental-health and wellness-type brand. Enter ultrant: the personalized motivational tool for
-                                personal money saving goals. It is a tool designed for anyone and everyone because we all deserve to achieve our most fabulous goals.
-                            </p>
-                            <p>Knowing the motivational tone of the app is the functionality that sets it apart from competitors, I decided to prioritize this task for for this iteration, as part of my design strategy.</p>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/about_ultrant_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/about_ultrant_@2x.png" alt="about ultrant" />
-                            </picture>
-                        </div>
-                        <div>
-                            <div>
-                                <h3>Wireframe</h3>
-                            </div>
-                            <p>
-                                At this stage, I take my user personas and user flow to begin designing the screens. Initially, paper and pen are used to draw quick low-fidelity wireframes that can be adapted easily. After those feel
-                                strong, it is time to transfer them digitally. I used Balsamiq to create initial versions of mid-fidelity wireframes.
-                            </p>
-                            <p>
-                                With my mid-fidelity wireframes completed, I turned to inVision to create prototypes, My 8 person sample size, made up of members of my social and professional networks, tested the prototypes and provided
-                                consistent feedback that the log in flow needed some clarification, as well as the information hierarchy, but the basic design made sense and there was an apparent need for this motivational feature to exist.
-                                Below is a sample of the user analysis. From there, I took the feedback and utilized it in the high fidelity versions.
-                            </p>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/Ultrant_sketch_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/Ultrant_sketch_@2x.png" alt="low fidelity" />
-                            </picture>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/mid_fidelity_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/mid_fidelity_@2x.png" alt="mid fidelity" />
-                            </picture>
-                        </div>
-
-                        <div>
-                            <div>
-                                <h3>Design</h3>
-                            </div>
-                            <p>
-                                At this stage of the design project, it was time to focus on creating that positive, creative, supportive tone that feels inclusive and instills trust. Consumer Affairs reports that only 20% of consumers
-                                prefer a visit to a physical bank over a digital experience. Another statistic states that over half of Americans delay making financial decisions.What this says to me is there are a lot of individuals
-                                looking to have a positive experience with their personal finance tool, and they need a little guidance in making decisions to save and invest their money properly.
-                            </p>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/styleguide_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/styleguide_@2x.png" alt="ultrant style guide" />
-                            </picture>
-                        </div>
-                        <div>
-                            <div>
-                                <h3>Prototype</h3>
-                            </div>
-                            <p>
-                                With my mid-fidelity wireframes completed, I turned to inVision to create prototypes, My 8 person sample size, made up of members of my social and professional networks, tested the prototypes and provided
-                                consistent feedback that the log in flow needed some clarification, as well as the information hierarchy, but the basic design made sense and there was an apparent need for this motivational feature to exist.
-                                Below is a sample of the user analysis. From there, I took the feedback and utilized it in the high fidelity versions.
-                            </p>
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/ultrant/high_fidelity_@1x.png" media="(max-width:767px)" />
-                                <img src="img/ultrant/high_fidelity_@2x.png" alt="high fidelity" />
-                            </picture>
-                        </div>
-                        <div>
-                            <div>
-                                <h2>Conclusion</h2>
-                            </div>
-                            <p>
-                                Being very clear on the design strategy helped the rest of this design fall into place easily later. I also think having an essential flow, or MVP, was a great strategy in the design process in order to
-                                prioritize the positive UX/UI experience. Throughout this process I learned to be more organized with documentation and handoff and more iterative in my design process. The next steps for this project would
-                                be to expand testing and functionality.
-                            </p>
-                            <p>Here is my final design solution for Ultrant.</p>
-                            <div>
-                                <picture>
-                                    <source srcset="img/ultrant/final_screens_@1x.png" media="(max-width:767px)" />
-                                    <img src="img/ultrant/final_screens_@2x.png" alt="final ultrant screens" />
-                                </picture>
+                            <p>Below is my application of human-centered design thinking for this brief.</p>
+                            <div class="center">
+                                <div class="col-md-6">
+                                    <h4>Role</h4>
+                                    <p>UX/UI Designer</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>Tools</h4>
+                                    <p>Adobe XD</p>
+                                    <p>inVision</p>
+                                    <p>Frontify</p>
+                                    <p>Usability Hub</p>
+                                    <p>Marvel</p>
+                                </div>
                             </div>
                             <div>
                                 <picture>
-                                    <source srcset="img/ultrant/onboard_mockup_@1x.png" media="(max-width:767px)" />
-                                    <img src="img/ultrant/onboard_mockup_@2x.png" alt="onboard mockup" />
+                                    <source srcset="img/souschef/Design_process_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/souschef/Design_process_@2x.png" alt="Sous Chef Design Process" />
                                 </picture>
                             </div>
                             <div>
-                                <picture>
-                                    <source srcset="img/ultrant/add_goal_@1x.png" media="(max-width:767px)" />
-                                    <img src="img/ultrant/add_goal_@2x.png" alt="add goal mockup" />
+                                <h3>02 - Research & Discovery</h3>
+                                <h4>
+                                    A Deep Dive Into What's Working v. What's Not.
+                                </h4>
+                            </div>
+                            <p>
+                                My hypothesis meant to discover if others found all the text-heavy recipe blogs out there as overwhelming as I do. I didn't want to create just one more tool to bookmark, and eventually forget, about recipes.
+                                I wanted to see if there was a way to make the tools people already use more useful. I surveyed 11 users for my research to get a closer look at this frustratingly common issue. Below is a sample question and
+                                answer set from the initual user interview survey:
+                            </p>
+                            <div>
+                                <h4>
+                                    Question: Is there anything you don't like about recipe apps/tools you currently use?
+                                </h4>
+                            </div>
+                            <ul>
+                                <li><p>Too many options, too many distractions in app, bad quality design or images.</p></li>
+                                <li><p>Not many ways to organize recipes</p></li>
+                                <li><p>Nope</p></li>
+                                <li><p>I wish it would combine with my grocery lists in my iPhone notes. And I hate scrolling so if the recipe and ingredients were better organized that would help.</p></li>
+                                <li><p>When they have a long blog before the recipe. I hate having to scroll all the way down.</p></li>
+                                <li><p>Poor layout, too much text.</p></li>
+                            </ul>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/souschef/Research_takeaway_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/souschef/Research_takeaway_@2x.png" alt="Sous Chef Research" />
                                 </picture>
                             </div>
                             <div>
-                                <picture>
-                                    <source srcset="img/ultrant/pinstripe_mockup_@1x.png" media="(max-width:767px)" />
-                                    <img src="img/ultrant/pinstripe_mockup_@2x.png" alt="pinstripe mockup" />
+                                <picture class="img">
+                                    <source srcset="img/souschef/Design_Strategy_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/souschef/Design_Strategy_@2x.png" alt="Sous Chef Strategy" />
                                 </picture>
                             </div>
-                            <p>Thanks for viewing my work. I hope you enjoyed it!</p>
+                            <div>
+                                <h3>03 - Wireframes & User Testing</h3>
+                                <h4>If You Build It (& Keep Testing It) They Will Come</h4>
+                            </div>
+                            <p>
+                                Wih my research complete, I took the information I had and created user personas and user flows in order to help direct the design solution and act as a foundation for the prototypes. Now, at this stage, I
+                                started rapid prototyping. Creating quick drawings with pen and paper and uploading them to Marvel allowed me to make edits easily and re-test right away. I received thoughtful feedback from 8 participants on
+                                my low-fidelity wireframes, which led to a key improvement. As previously stated, text-heavy blogs are difficult to navigate, so what Sous Chef can do is swipe back and forth from ingredients to instructions,
+                                and with the user feedback I received, I added an arrow to make the swipe function clearer.
+                            </p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/souschef/breakthrough_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/souschef/breakthrough_@2x.png" alt="Sous Chef breakthrough" />
+                                </picture>
+                            </div>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/souschef/low_fidelity_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/souschef/low_fidelity_@2x.png" alt="low fidelity" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>04 - UI Design Ideation & Testing</h3>
+                                <h4>Creating That Sous Chef Vibe</h4>
+                            </div>
+                            <p>
+                                Next up: creating a mobile-frst design and a visual identity. The idea behind this strategy is to make the design look good at the smallest platform size and scale it up, so the design looks crisp and
+                                consistent at all breakpoints.
+                            </p>
+                            <p>
+                                The visual identity for Sous Chef is fun and calming, with relaxing shapes. I debated doing a punchier, brighter color scheme, but again with user A/B testing, I decided to stick with the original plan and am
+                                very pleased with how it turned out. Below is the style guide for Sous Chef.
+                            </p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/souschef/Style_guide_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/souschef/Style_guide_@2x.png" alt="Sous Chef Style Guide" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>05 - Responsive App Mockups</h3>
+                                <h4>A Runway Show for App Design Solution</h4>
+                            </div>
+                            <p>
+                                Creating a consistent scalable design that is visually appealing at every breakpoint can be tricky. In the case of this project, however, I had a firm grasp on the visual identity, and I was able to execute
+                                my vision for it from the beginning. Here is the final product of my web responsive app for recipes!
+                            </p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/souschef/laptop_mockup_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/souschef/laptop_mockup_@2x.png" alt="Laptop Mockup" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h3>06 - Conclusion</h3>
+                            </div>
+                            <div>
+                                <h4>Takeaways</h4>
+                            </div>
+                            <p>
+                                This project taught me a lot, and I had a really great, albeit challenging time working on the responsive design aspect. Another major thing I learned was just how random design inspiration can be, and that
+                                it is truly important to budget time to just look at the world around you. The idea for the shapes and color scheme for this project came to me based on a book cover I glanced at one day.
+                            </p>
+                            <div>
+                                <h4>Next Iteration</h4>
+                            </div>
+                            <p>
+                                The next steps for this project would be to expand testing and functionality. I would like to focus on the grocery list funcion, and eventually have the tool sync up with other devices, so families can share
+                                their grocery lists.
+                            </p>
+                            <div>
+                                <picture class="img">
+                                    <source srcset="img/souschef/kitchen_mockup_@1x.png" media="(max-width:767px)" />
+                                    <img src="img/souschef/kitchen_mockup_@2x.png" alt="Kitchen Mockup" />
+                                </picture>
+                            </div>
+                            <div>
+                                <h4 class="center">Thanks so much for reading!</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -257,7 +210,7 @@
         <footer id="contact" style="background-image: url('https://static.wixstatic.com/media/6f22ae_ca538925f40e413fabfc4d932701ae1a~mv2.png');">
             <div class="container">
                 <h2>- Contact -</h2>
-                <p>I'd love to connect! Drop me a line at: </p>
+                <p>I'd love to connect! Drop me a line at:</p>
                 <div class="social">
                     <a href="mailto:morganimadden@gmail.com" target="_blank">
                         <span>
@@ -275,15 +228,14 @@
                         <i class="fab fa-behance-square"></i>
                     </a>
                 </div>
-                <p class="c">© 2021 Morgan Rolón Madden </p>
-                    <em>
-                        The land that supports my work is within the traditional territories of the Arapaho and Ute peoples. <br />
-                        I acknowledge them & the 48 contemporary tribal nations tied to the land that make up the state of Colorado.
-                    </em>
+                <em>
+                    The land that supports my work is within the traditional territories of the Arapaho and Ute peoples. <br />
+                    I acknowledge them & the 48 contemporary tribal nations tied to the land that make up the state of Colorado.
+                </em>
+                <p class="c">© 2021 Morgan Rolón Madden</p>
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-        <script src= "js/jquery.scrollUp.js"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
