@@ -58,6 +58,9 @@ nav > ul > li > a:hover {
     display: inline-block;
     width: 100%;
 }
+#hero .h4{
+  text-decoration: none;
+}
 main {
     padding-top: 100px;
 }
@@ -103,7 +106,6 @@ h4 {
     font-size: 1.35em;
     font-weight: 400;
     line-height: 1.4;
-    text-decoration: underline;
 }
 img {
     max-width: 100%;
@@ -112,6 +114,8 @@ img {
 a {
     color: #bd845d;
     text-decoration: none; /* No underlining */
+    padding-left: 20px;
+    padding-right: 20px;
 }
 a:hover {
     color: #ffffff;
@@ -249,10 +253,16 @@ a:active {
 .social {
     text-align: center;
     padding-top: 5px;
+    font-size: 22px;
 }
 .social a {
     display: inline-block;
     margin: 0 12px;
+}
+.social-square {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 36px;
 }
 #ultrant .container {
     padding: 0px 15px;
@@ -263,6 +273,12 @@ a:active {
 #traverse .container {
     padding: 30px 15px;
 }
+#ultrant .h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+    line-height: 1.4;
+    text-decoration: underline;
+  }
 #ultrant .viewbutton {
     display: inline-block;
     margin: 15px;
@@ -281,12 +297,22 @@ a:active {
     width: 100%;
     margin-top: -4.25em;
 }
+#souschef .viewbutton {
+    display: inline-block;
+    margin: 15px;
+    width: 255px;
+}
 #traverse .projecthero {
     background-color: #6a94ac;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 15px;
     background-color: #ffffff;
+}
+#traverse .viewbutton {
+    display: inline-block;
+    margin: 15px;
+    width: 255px;
 }
 [class*="col-"] {
     float: left;
