@@ -3,8 +3,6 @@
 }
 header {
     position: fixed;
-    background-color: #e0e0de;
-    position: fixed;
     display: inline-block;
     padding: 15px 0 8px;
     width: 100%;
@@ -19,7 +17,6 @@ header {
 }
 .navtoggle.responsive nav {
     padding: 24px 0 0;
-    background-color: #e0e0de;
     width: 100%;
 }
 .navtoggle.responsive li {
@@ -44,7 +41,6 @@ nav > ul > li > a {
     padding: 0 12px;
     text-transform: uppercase;
     font-weight: 400;
-    color: #53624f;
     font-family: "Poiret One", cursive;
 }
 nav > ul > li > a:hover {
@@ -180,7 +176,6 @@ a:active {
     /* needed to override the default link color */
     padding: 12px 32px;
     border-radius: 16px;
-    font-style: bold;
     text-decoration: none;
     border: 2px solid #e0e0de;
 }
@@ -375,7 +370,7 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
     .logo {
-        max-width: 150px;
+        max-width: 125px;
     }
     nav {
         width: auto;
