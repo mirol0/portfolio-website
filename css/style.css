@@ -124,7 +124,7 @@ a:focus {
 }
 a:active {
     /* selected link */
-    color: #bd845d;
+    color: #e0e0de;
 }
 .workimage:hover {
     transform: scale(1.0125);
