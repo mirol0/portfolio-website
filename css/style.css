@@ -61,7 +61,7 @@ nav > ul > li > a:hover {
   text-decoration: none;
 }
 main {
-    padding-top: 80px;
+    padding-top: 60px;
 }
 body {
     background-color: #ffffff;
@@ -388,7 +388,7 @@ Medium devices (640px and larger)
         margin: 1em 0;
     }
     main {
-        padding-top: 100px;
+        padding-top: 50px;
     }
     .container {
         max-width: 1200px;
@@ -451,7 +451,7 @@ Medium devices (640px and larger)
     }
     #hero {
         text-align: center;
-        padding: 20px 0;
+        padding: 50px 0;
         display: inline-block;
         width: 100%;
     }
@@ -473,7 +473,7 @@ Large devices (1024px or larger)
         font-size: 18px;
     }
     main {
-        padding-top: 80px;
+        padding-top: 60px;
     }
     .navtoggle li:not(:last-child) {
         display: inline-block;
@@ -495,7 +495,7 @@ Large devices (1024px or larger)
     }
     #hero {
         text-align: center;
-        padding: 100px 0;
+        padding: 50px 0;
         display: inline-block;
         width: 100%;
     }
