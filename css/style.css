@@ -61,7 +61,7 @@ nav > ul > li > a:hover {
   text-decoration: none;
 }
 main {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 body {
   background-color: #fff;
@@ -389,7 +389,7 @@ Medium devices (640px and larger)
     margin: 1em 0;
   }
   main {
-    padding-top: 100px;
+    padding-top: 60px;
   }
   .container {
     max-width: 1200px;
