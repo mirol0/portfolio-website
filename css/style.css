@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 header {
   position: fixed;
   display: inline-block;
@@ -9,24 +10,29 @@ header {
   width: 100%;
   box-shadow: 0px 0px 4px 0px rgba(50, 50, 50, 0.75);
 }
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
+
 .navtoggle,
 .navtoggle.responsive {
   position: relative;
 }
+
 .navtoggle.responsive nav {
   padding: 24px 0 0;
   width: 100%;
   background-color: #e0e0de;
 }
+
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
   color: #53624f;
   border-top: 1px solid #bd845d;
 }
+
 .navtoggle li .icon {
   position: absolute;
   right: 0;
@@ -35,52 +41,63 @@ header {
   font-size: 28px;
   padding-top: 4px;
 }
-nav > ul {
+
+nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-nav > ul > li > a {
+
+nav>ul>li>a {
   padding: 0 12px;
   text-transform: uppercase;
   font-weight: 400;
   font-family: "Poiret One", cursive;
 }
-nav > ul > li > a:hover {
+
+nav>ul>li>a:hover {
   font-weight: 400;
   color: #f6ebe5;
   text-decoration: overline;
 }
+
 #hero {
   text-align: center;
   padding-top: 50px;
   display: inline-block;
   width: 100%;
 }
+
 #hero .h4 {
   text-decoration: none;
 }
+
 main {
   padding-top: 40px;
 }
+
 body {
   background-color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px; /*sets the font to 16px */
+  font-size: 16px;
+  /*sets the font to 16px */
   font-weight: 300;
   line-height: 1.6;
   color: #53624f;
 }
+
 footer {
   text-align: center;
   padding: 15px;
 }
+
 h1,
 h2,
 h3,
 h4 {
   font-family: "Poiret One", cursive;
 }
+
 h1 {
   font-size: 2.75em;
   font-weight: 700;
@@ -101,34 +118,44 @@ h3 {
   line-height: 1.4;
   text-transform: uppercase;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
   line-height: 1.4;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 a {
   color: #bd845d;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
+
 a:hover {
   color: #fff;
   text-decoration: underline;
 }
+
 a:focus {
   color: #bd845d;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
+
 a:active {
   /* selected link */
   color: #e0e0de;
 }
+
 .workimage:hover {
   transform: scale(1.0125);
 }
+
 .button.contact {
   background-color: transparent;
   color: #53624f;
@@ -137,20 +164,25 @@ a:active {
   padding: 12px 60px;
   margin: 15px;
 }
+
 .button.contact:hover {
   background-color: white;
   color: #53624f;
   opacity: 0.8;
   border: 2px solid #53624f;
 }
+
 .button.contact:active {
   background-color: #bd845d;
   color: #bd845d;
 }
+
 .button {
-  display: inline-block; /* view proj since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
+  /* view proj since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #e0e0de;
-  color: #53624f; /* needed to override the default link color */
+  color: #53624f;
+  /* needed to override the default link color */
   text-transform: capitalize;
   font-weight: 400;
   padding: 12px 32px;
@@ -160,15 +192,19 @@ a:active {
   border: 2px solid #e0e0de;
   transition-duration: 0.2s;
 }
+
 .button:hover {
-  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
   background-color: transparent;
   color: #bd845d;
 }
+
 .button:active {
   opacity: 100%;
   text-decoration: underline;
 }
+
 .comingsoon {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -180,146 +216,186 @@ a:active {
   text-decoration: none;
   border: 2px solid #e0e0de;
 }
+
 .disabled {
   pointer-events: none;
 }
+
 /*layout styling*/
 .container {
   padding: 0 15px;
 }
+
 #work .row {
   padding-bottom: 50px;
   border-bottom: 1px solid #53624f;
 }
+
 #workdescription {
   padding-right: 15px;
 }
+
 .row::after {
   content: "";
   clear: both;
   display: table;
   padding: 0 10px;
 }
+
 .logo {
   max-width: 100px;
   border-radius: 8px;
 }
+
 .workpic {
   text-align: center;
   padding-top: 30px;
   position: inherit;
 }
+
 .workimage:hover {
   transform: scale(1.0125);
 }
+
 #about h2 {
   padding-top: 30px;
 }
+
 #about h3 {
   padding-top: 10px;
   margin-top: 0;
 }
+
 #about .profilepic {
   border-radius: 50%;
   max-width: 200px;
   text-align: center;
 }
+
 #about .row {
   padding: 30px 0;
 }
+
 .skills {
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .row::after {
   content: "";
   clear: both;
   display: table;
 }
+
 .lastrow {
   padding: 30px 0;
   /* 25px top and bottom, 0 left and right */
 }
+
 .lastrow::after {
   content: "";
   clear: both;
   display: table;
 }
+
 .social {
   text-align: center;
   padding-top: 5px;
   font-size: 17px;
 }
+
 .social a {
   display: inline-block;
   margin: 0 12px;
 }
+
 .social-square {
   text-align: center;
   padding-top: 5px;
   font-size: 36px;
 }
+
 #ultrant .container {
   padding: 0 15px;
 }
+
 #souschef .container {
   padding: 0 15px;
 }
+
 #traverse .container {
   padding: 30px 15px;
 }
+
 #ultrant .h4 {
   font-size: 1.35em;
   font-weight: 400;
   line-height: 1.4;
   text-decoration: underline;
 }
+
 #ultrant .viewbutton {
   display: inline-block;
   margin: 15px;
   width: 255px;
 }
+
 #ultrant .projecthero {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 15px;
   background-color: #fff;
 }
+
 #ultrant .designstrategy {
   max-height: 400px;
 }
+
 #souschef .projecthero {
   width: 100%;
   margin-top: -4.25em;
 }
+
 #souschef .viewbutton {
   display: inline-block;
   margin: 15px;
   width: 255px;
 }
+
 #traverse .projecthero {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 15px;
   background-color: #fff;
 }
+
 #traverse .viewbutton {
   display: inline-block;
   margin: 15px;
   width: 255px;
-} /* Style inputs with type="text", select elements and textareas */
+}
+
+/* Style inputs with type="text", select elements and textareas */
 input[type="text"],
 select,
 textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 2px solid #f6ebe5; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 2px solid #f6ebe5;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+  /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -345,14 +421,17 @@ input[type="submit"]:hover {
   background-color: #f2f2f2;
   padding: 80px;
 }
+
 [class*="col-"] {
   float: left;
   padding: 30px;
 }
+
 .c {
   font-size: 12px;
   font-style: italic;
 }
+
 .italic {
   font-family: "Poiret One", cursive;
   font-style: italic;
@@ -361,12 +440,15 @@ input[type="submit"]:hover {
   font-size: 18px;
   color: #bd845d;
 }
+
 .bold-text {
   font-weight: 400;
 }
+
 .center {
   text-align: center;
 }
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -374,35 +456,44 @@ Medium devices (640px and larger)
   .logo {
     max-width: 125px;
   }
+
   nav {
     width: auto;
     float: right;
     margin-top: -8px;
   }
+
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
+
   .navtoggle li:last-child {
     display: none;
   }
-  nav > ul {
+
+  nav>ul {
     margin: 1em 0;
   }
+
   main {
     padding-top: 60px;
   }
+
   .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+
   .col-md-6 {
     width: 50%;
   }
+
   [class*="col-"] {
     float: left;
     padding: 30px;
   }
+
   #scrollUp {
     bottom: 20px;
     right: 20px;
@@ -412,12 +503,14 @@ Medium devices (640px and larger)
     color: #53624f;
     border: 2px solid #f6ebe5;
   }
+
   #scrollUp:hover {
     background-color: white;
     color: #53624f;
     opacity: 0.8;
     border: 2px solid;
   }
+
   #work h3 {
     margin: 0;
     padding: 0;
@@ -433,6 +526,7 @@ Medium devices (640px and larger)
     padding: 0;
     text-align: center;
   }
+
   #about h4 {
     text-decoration: underline;
   }
@@ -440,27 +534,32 @@ Medium devices (640px and larger)
   #about .row {
     padding: 30px 0;
   }
+
   #about .profilepic {
     border-radius: 50%;
     max-width: 360px;
     text-align: center;
   }
+
   .skills {
     max-width: 640px;
     margin-left: auto;
     margin-right: auto;
   }
+
   #hero {
     text-align: center;
     padding: 50px 0;
     display: inline-block;
     width: 100%;
   }
+
   #souschef .projecthero {
     width: 100%;
     margin-top: -6.2em;
   }
 }
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
@@ -470,36 +569,46 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
+
   body {
     font-size: 18px;
   }
+
   main {
     padding-top: 60px;
   }
+
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
+
   .navtoggle li:last-child {
     display: none;
   }
-  nav > ul {
+
+  nav>ul {
     margin: 1em 0;
   }
+
   .col-lg-7 {
     width: 60%;
   }
+
   .col-lg-5 {
     width: 40%;
   }
+
   .logo {
     max-width: 150px;
   }
+
   #hero {
     text-align: center;
     padding: 50px 0;
     display: inline-block;
     width: 100%;
   }
+
   #souschef .projecthero {
     width: 100%;
     margin-top: -6.2em;
