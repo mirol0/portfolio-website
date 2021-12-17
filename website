@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Morgan Madden" />
+  <meta name="description" content="Short description including keywords related to the pages content for SEO purposes" />
+  <title>Personal Site</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="img/logo/favicon.ico" rel="shortcut icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://kit.fontawesome.com/760cb26276.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- orange block-->
+    <div class="container">
+      <!-- yellow block-->
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html"> <img class="logo" src="img/logo/logo.png" alt="Morgan Madden UX/UI Designer logo" /></a>
+
+        <nav class="nav">
+          <ul>
+            <li><a class="bold-text" href="index.html" onclick="menuToggle()">Work</a></li>
+            <li><a class="bold-text" href="about.html">About</a></li>
+            <li><a class="bold-text" href="files/cv.pdf" target="_blank">Resume</a></li>
+            <li><a class="bold-text" href="contact.html" onclick="menuToggle()">Contact</a></li>
+            <li>
+              <a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="website">
+      <div class="projecthero">
+        <div>
+          <div class="center">
+            <picture>
+              <source srcset="img/website/Hero_pic_@1x.png" media="(max-width:767px)" />
+              <img src="img/website/Hero_pic_@2x.png" alt="Responsive Site Mockup" />
+            </picture>
+          </div>
+        </div>
+        <h1 class="center">Building my Custom Personal Site</h1>
+      </div>
+    </div>
+    <div>
+      <div class="container">
+        <div>
+          <div>
+            <h2>The Vision</h2>
+            <p> words </p>
+          </div>
+          <div class="center">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1200" viewBox="0 0 1200 1200">
+              <defs>
+                <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#4a1e06" />
+                  <stop offset="0.783" stop-color="#4a1e06" />
+                  <stop offset="1" stop-color="#bd845d" />
+                </linearGradient>
+                <clipPath id="clip-illustration_placing_pieces__2x">
+                  <rect width="1200" height="1200" />
+                </clipPath>
+              </defs>
+              <g id="illustration_placing_pieces__2x" data-name="illustration_placing_pieces_@2x" clip-path="url(#clip-illustration_placing_pieces__2x)">
+                <rect width="1200" height="1200" fill="#fff" />
+                <g id="undraw_fitting_pieces_cli3" transform="translate(181.865 262.897)">
+                  <circle id="Ellipse_9443" data-name="Ellipse 9443" cx="123" cy="123" r="123" transform="translate(0 305)" fill="#f6ebe5" />
+                  <circle id="Ellipse_9444" data-name="Ellipse 9444" cx="123" cy="123" r="123" transform="translate(20 287)" fill="#53624f" />
+                  <rect id="Rectangle_147966" data-name="Rectangle 147966" width="108" height="108" transform="translate(58 72)" fill="#f6ebe5" />
+                  <rect id="Rectangle_147967" data-name="Rectangle 147967" width="108" height="108" transform="translate(73 56)" fill="#53624f" />
+                  <rect id="Rectangle_147968" data-name="Rectangle 147968" width="158.412" height="1.875" transform="translate(171.858 664.676)" fill="#3f3d56" />
+                  <path id="Path_85513" data-name="Path 85513" d="M415.865,254.9h-142v-142h142Zm-140-2h138v-138h-138Z" transform="translate(-181.865 -112.897)" fill="#bd845d" />
+                  <rect id="Rectangle_147969" data-name="Rectangle 147969" width="28" height="28" transform="translate(301 275)" fill="#f6ebe5" />
+                  <rect id="Rectangle_147970" data-name="Rectangle 147970" width="28" height="28" transform="translate(307 268)" fill="#53624f" />
+                  <path id="Path_85514" data-name="Path 85514" d="M543.865,398.9h-46v-46h46Zm-44-2h42v-42h-42Z" transform="translate(-181.865 -112.897)" fill="#bd845d" />
+                  <path id="Path_85515" data-name="Path 85515"
+                    d="M432.865,779.9c-84.364,0-153-68.636-153-153s68.636-153,153-153,153,68.636,153,153S517.229,779.9,432.865,779.9Zm0-304c-83.262,0-151,67.738-151,151s67.738,151,151,151,151-67.738,151-151-67.738-151-151-151Z"
+                    transform="translate(-181.865 -112.897)" fill="#bd845d" />
+                  <rect id="Rectangle_147971" data-name="Rectangle 147971" width="158.412" height="1.875" transform="translate(528.857 669.676)" fill="#3f3d56" />
+                  <rect id="Rectangle_147972" data-name="Rectangle 147972" width="158.412" height="1.875" transform="translate(677.857 499.676)" fill="#3f3d56" />
+                  <path id="Path_85516" data-name="Path 85516"
+                    d="M809.179,171.36h0c-30.181,8.176-47.293,41.957-38.219,75.451l11.528,42.555,13.088-3.545L798.882,268l2.377,16.28,84.125-22.789,3.005-16.2,2.161,14.8,9.472-2.566-9.052-33.413C880.529,185.57,843.91,161.952,809.179,171.36Z"
+                    transform="translate(-181.865 -112.897)" fill="#4a1e06" />
+                  <path id="Path_85517" data-name="Path 85517" d="M747.365,692.4l13,46-2,17,38-8s-16-27-14-41Z" transform="translate(-181.865 -112.897)" fill="#eab293" />
+                  <path id="Path_85518" data-name="Path 85518" d="M737.5,414.5l-10,54,33-5L762,407Z" fill="#eab293" />
+                  <circle id="Ellipse_9445" data-name="Ellipse 9445" cx="36" cy="36" r="36" transform="translate(602.5 82.5)" fill="#eab293" />
+                  <path id="Path_85519" data-name="Path 85519" d="M627,145l-2,20-16,9,42,93,32-77-21-16-2-38Z" fill="#eab293" />
+                  <path id="Path_85520" data-name="Path 85520"
+                    d="M838.365,357.4,797.41,283.216s-33.045,2.181-41.045,9.181l16,102-5,13s-41,42-33,133,8,162,8,162,29,34,89,0v-181l85-7v22s88-22,90-55l-22.638-39.319a38.937,38.937,0,0,0-44.866-17.886l-74.5,22.205-8-30,8-22s21-16,21-37,6-46,6-46l-38.9-17.947Z"
+                    transform="translate(-181.865 -112.897)" fill="#7e0f2c" />
+                  <path id="Path_85521" data-name="Path 85521" d="M909.365,349.4l16,39s17,20,20,42l5,26s12,46-7,44-14-46-14-46l-3-13-17-28-25.085-47.68Z" transform="translate(-181.865 -112.897)" fill="#eab293" />
+                  <path id="Path_85522" data-name="Path 85522" d="M912.365,572.4s28.615,2.807,34.307-10.1l28.693,23.1s51.965,13.917,23,26c-27,11.263-54-.762-54,2,0,0-8-7-17-2s-36,0-35-8S897.365,566.4,912.365,572.4Z"
+                    transform="translate(-181.865 -112.897)" fill="#2f2e41" />
+                  <path id="Path_85523" data-name="Path 85523" d="M759.365,743.4s28.615,2.807,34.307-10.1l28.693,23.1s52.166,14.409,23,26c-26.972,10.719-53.986-.6-54,2,0,0-8-7-17-2s-36,0-35-8S744.365,737.4,759.365,743.4Z"
+                    transform="translate(-181.865 -112.897)" fill="#2f2e41" />
+                  <path id="Path_85524" data-name="Path 85524" d="M696.5,194.5l13,4,28,42-51,34Z" fill="#7e0f2c" />
+                  <path id="Path_85525" data-name="Path 85525"
+                    d="M829.24,183.858c-7.4-5.579-16.706-7.861-25.74-5.414l-1.073.291c-20.686,5.6-32.385,28.865-26.13,51.956h0l6.931-1.878-1.189-8.824,3.949,8.076,41.11-11.136,1.491-8.142,1.092,7.442,8.088-2.191q13.277,26.58-1.036,60.633l13.777-3.732,2.983-16.283,2.183,14.884,26.262-7.114-3.816-34.559C871.4,203.033,851.262,185.884,829.24,183.858Z"
+                    transform="translate(-181.865 -112.897)" fill="url(#linear-gradient)" />
+                  <circle id="Ellipse_9446" data-name="Ellipse 9446" cx="18" cy="18" r="18" transform="translate(638 31)" fill="#4a1e06" />
+                  <path id="Path_85526" data-name="Path 85526" d="M836.865,171.9a17.99,17.99,0,0,1-6.333-34.832,17.989,17.989,0,1,0,8.667,34.664A18.071,18.071,0,0,1,836.865,171.9Z" transform="translate(-181.865 -112.897)" fill="#4a1e06" />
+                  <ellipse id="Ellipse_9447" data-name="Ellipse 9447" cx="4.5" cy="6.5" rx="4.5" ry="6.5" transform="translate(657 112)" fill="#e0e0de" />
+                  <path id="Path_85527" data-name="Path 85527" d="M756.865,581.9c-24.755-3.685-54.742-2.828-87,0q20.173-36.99,0-65a360.886,360.886,0,0,0,87,0C744.476,537.523,745.569,559.282,756.865,581.9Z" transform="translate(-181.865 -112.897)"
+                    fill="#53624f" />
+                  <path id="Path_85528" data-name="Path 85528" d="M745.365,352.4l-3,40s-14,22-17,69l-1,29s-21,41-4,40,16-39,16-39l30-87v-42Z" transform="translate(-181.865 -112.897)" fill="#eab293" />
+                  <path id="Path_85529" data-name="Path 85529" d="M763.365,293.4h-7s-11,7-20,37-10,31-10,31l47,11Z" transform="translate(-181.865 -112.897)" fill="#7e0f2c" />
+                  <rect id="Rectangle_147973" data-name="Rectangle 147973" width="28" height="28" transform="translate(518 424)" fill="#e0e0de" />
+                </g>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div>
+          <h3>Find the (Design) North Star</h3>
+        </div>
+        <p>
+          The main objective was to help people save money by creating a mobile personal finance app that is motivational and accessible, both in terms of tech-ability and cross-platform use.
+          Knowing personal finance can be a prickly area for many people, Ultrant utilizes a very friendly and inviting interface that makes users feel comfortable and accomplished for creating and sticking to their
+          financial goals.
+        </p>
+        <div>
+          <picture class="designstrategy">
+            <source srcset="img/ultrant/design_strategy_@1x.png" media="(max-width:767px)" />
+            <img src="img/ultrant/design_strategy_@2x.png" alt="Ultrant Design Strategy" />
+          </picture>
+        </div>
+        <div>
+          <h3>Research and Discovery </h3>
+        </div>
+        I conducted research on 2 major competitors in the personal finance space: Ellevest and Mint. Ellevest, seen below on the left, has a professional, yet conversational
+        design language that infuses trust into every task. While, Mint, on the other hand, relies on a soothing, cool blue color and easy to understand onboarding information to ensure quick comprehension. I knew
+        these were elements I wanted my app to possess as well.
+        </p>
+        <div>
+          <picture class="img">
+            <source srcset="img/ultrant/competitors@1x.png" media="(max-width:767px)" />
+            <img src="img/ultrant/competitors@2x.png" alt="Ultrant Competitors" />
+          </picture>
+        </div>
+        <p>
+          An MVP for Ultrant already existed and now it was up to me to spruce up the user experience and interface. I focused on 3 key functions listed in the MVP:
+        </p>
+
+        <ul>
+          <li>As a new user, I need to be able to create a profile, so that the financial advice I receive is personalized to me, my spending habits, and tailored to my goals.</li>
+          <li>As a user, I want the money-saving tool I use to be motivational, so that I stay on track with my goals.</li>
+          <li>As a user, I want to receive a personalized savings plan, so that I can save enough money to reach my goal in time.</li>
+        </ul>
+        <p>
+          With these in mind, I sought to better understand the problem space. I conducted interviews (12 total) to determine other motivations and pain points users experience with their fintech apps. From there I had a much better vision for the
+          app and target audience and created personas based on them, seen below. Building further upon the user stories and personas, I created a site map in order to visualize the information hierarchy and provide structure for the app. After that,
+          I focused on creating wireframes for the primary flow: adding a personalized goal.
+        </p>
+        <div>
+          <picture class="img">
+            <source srcset="img/ultrant/user_persona2_@1x.png" media="(max-width:767px)" />
+            <img src="img/ultrant/user_persona2_@2x.png" alt="persona2" />
+          </picture>
+        </div>
+        <div>
+          <picture class="img">
+            <source srcset="img/ultrant/Ultrant_sketch_@1x.png" media="(max-width:767px)" />
+            <img src="img/ultrant/Ultrant_sketch_@2x.png" alt="low fidelity sketch" />
+          </picture>
+        </div>
+        <p> The style guide for the project was next. Consumer Affairs reports that only 20% of consumers prefer a visit to a physical bank over a digital experience. Another statistic states that over half of Americans delay making financial
+          decisions.
+          What this says is there are a lot of individuals looking to have a positive experience with their personal finance tool, and they need a little guidance in making decisions to save and invest their money properly.
+          That’s why Ultrant relies on dark blues and friendly illustrations are used to instill trust, calm, and inclusiveness.
+          I wanted to combine the calm, professional tone of the fintech industry with the warm and friendly illustrations and casual, creative tone of a mental-health and wellness-type brand.
+        </p>
+        <p>Bringing it all together, I created a deliverables bundle including low- and high-fidelity wireframes, mobile mockups, a design system, user flows and a plan for potential product add-on features. </p>
+        <div>
+          <picture class="img">
+            <source srcset="img/ultrant/Style_guide_@1x.png" media="(max-width:767px)" />
+            <img src="img/ultrant/Style_guide_@2x.png" alt="style guide" />
+          </picture>
+        </div>
+
+        <div>
+          <h3>Final Design: Mission Accomplished</h3>
+        </div>
+
+        <div>
+          <h3>Conclusion</h3>
+        </div>
+        <div>
+          <h4>Areas of Improvement</h4>
+        </div>
+        <p>
+          Being very clear on the design strategy helped the rest of this design fall into place easily later.
+          Throughout this process I learned to be more organized with documentation and handoff and more iterative in my design process.
+        </p>
+        <div>
+          <h4>Next Iteration</h4>
+        </div>
+        <div>
+          <picture class="img">
+            <source srcset="img/ultrant/Our_services_@1x.png" media="(max-width:767px)" />
+            <img src="img/ultrant/Our_services_@2x.png" alt="Ultrant Services" />
+          </picture>
+        </div>
+        <p> The project met the main design objectives, which are stated again in the image above. The next steps for this project would be to expand testing and functionality.</p>
+        <div>
+          <picture class="img">
+            <source srcset="img/ultrant/superhero_illustration_@1x.png" media="(max-width:767px)" />
+            <img src="img/ultrant/superhero_illustration_@2x.png" alt="Ultrant Image" />
+          </picture>
+        </div>
+        <div class="center">
+          <p>I hope you enjoyed it! I know I sure did making it.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="contact" style="background-image: url('https://static.wixstatic.com/media/6f22ae_ca538925f40e413fabfc4d932701ae1a~mv2.png');">
+    <div class="container">
+      <h2>- Contact -</h2>
+      <p>I'd love to connect! Drop me a line at:</p>
+      <div class="social">
+        <a href="mailto:morganimadden@gmail.com" target="_blank">
+          <span>
+            morganimadden@gmail.com
+          </span>
+        </a>
+      </div>
+      <p>Thanks for coming by. I look forward to hearing from you!</p>
+      <p>Currently residing in Boulder, CO.</p>
+      <div class="social-square">
+        <a href="https://www.linkedin.com/in/morganimadden/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.behance.net/morganmadden" target="_blank">
+          <i class="fab fa-behance-square"></i>
+        </a>
+      </div>
+      <em>
+        The land that supports my work is within the traditional territories of the Arapaho and Ute peoples. <br />
+        I acknowledge them & the 48 contemporary tribal nations tied to the land that make up the state of Colorado.
+      </em>
+      <p class="c">© 2021 Morgan Rolón Madden</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="js/jquery.scrollUp.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
